@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pyramid',['Pyramid',['../class_pyramid.html',1,'']]]
+  ['decomposer',['Decomposer',['../struct_catch_1_1_decomposer.html',1,'Catch']]]
 ];
