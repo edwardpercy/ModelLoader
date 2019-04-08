@@ -10,7 +10,8 @@ var indexSectionsWithContent =
   0: "chmnprtvï",
   1: "chmptv",
   2: "m",
-  3: "nrtï"
+  3: "m",
+  4: "nrtï"
 };
 
 var indexSectionNames =
@@ -18,7 +19,8 @@ var indexSectionNames =
   0: "all",
   1: "classes",
   2: "files",
-  3: "pages"
+  3: "functions",
+  4: "pages"
 };
 
 function convertToId(search)
