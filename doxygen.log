@@ -265,7 +265,7 @@ Preprocessing /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individua
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/LoadModel_Test/include/Cell.h:8: warning: Compound cell is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/Cell.h:17: warning: Compound cell is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Cell.h:16: warning: Compound cell is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:85: warning: Compound MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:92: warning: Compound MainWindow is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/clipdialog.h:13: warning: Compound ClipDialog is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Vector_Test/Inc/Vector.h:17: warning: Compound Vector is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Calculation_Test/Include/Vector.h:17: warning: Compound Vector is not documented.
@@ -498,26 +498,26 @@ Generating code for file /home/travis/build/edwardpercy/ModelLoader//home/travis
 /home/travis/build/edwardpercy/ModelLoader/Include/Cell.h:24: warning: Member v (variable) of class cell is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Cell.h:25: warning: Member m (variable) of class cell is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Cell.h:26: warning: Member volume (variable) of class cell is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:89: warning: Member MainWindow(QWidget *parent=0) (function) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:95: warning: Member NumCells (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:97: warning: Member renderer (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:98: warning: Member actors (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:99: warning: Member Shrinks (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:100: warning: Member mapper (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:101: warning: Member hex (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:102: warning: Member actor (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:103: warning: Member shrinkFilter (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:104: warning: Member uGrid (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:107: warning: Member uGrids (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:108: warning: Member planeLeft (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:109: warning: Member clipFilter (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:110: warning: Member ClipFilters (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:112: warning: Member light (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:115: warning: Member cubeSource (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:116: warning: Member plane (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:122: warning: Member Indicator (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:123: warning: Member Cell_Iterations (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:124: warning: Member Last_Colour (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:96: warning: Member MainWindow(QWidget *parent=0) (function) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:102: warning: Member NumCells (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:104: warning: Member renderer (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:105: warning: Member actors (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:106: warning: Member Shrinks (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:107: warning: Member mapper (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:108: warning: Member hex (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:109: warning: Member actor (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:110: warning: Member shrinkFilter (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:111: warning: Member uGrid (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:114: warning: Member uGrids (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:115: warning: Member planeLeft (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:116: warning: Member clipFilter (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:117: warning: Member ClipFilters (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:119: warning: Member light (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:122: warning: Member cubeSource (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:123: warning: Member plane (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:129: warning: Member Indicator (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:130: warning: Member Cell_Iterations (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:131: warning: Member Last_Colour (variable) of class MainWindow is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Material.h:26: warning: Member Material(int RCMat, int RCDen, string RCCol, string RCNam) (function) of class Material is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Material.h:36: warning: Member setMaterial(int RCMat, int RCDen, string RCCol, string RCNam) (function) of class Material is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Material.h:39: warning: Member getMatID() (function) of class Material is not documented.
@@ -845,6 +845,7 @@ Generating code for file /home/travis/build/edwardpercy/ModelLoader/Test_Program
 Generating code for file /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Calculation_Test/Include/Vector.h...
 Generating code for file /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Vector_Test/Inc/Vector.h...
 Generating file documentation...
+Generating docs for file /home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h...
 Generating docs for file /home/travis/build/edwardpercy/ModelLoader/Src/Main.cpp...
 Generating page documentation...
 Generating docs for page md__home_travis_build_edwardpercy_ModelLoader_NEWS...
@@ -870,6 +871,7 @@ Generating docs for compound Pyramid...
 Generating docs for compound Tetrahedron...
 Generating docs for compound Vector...
 Generating namespace index...
+Generating docs for namespace Ui
 Generating graph info page...
 Generating directory documentation...
 Generating index page...
@@ -885,5 +887,5 @@ Generating file index...
 Generating file member index...
 Generating example index...
 finalizing index lists...
-lookup cache used 721/65536 hits=4709 misses=733
+lookup cache used 723/65536 hits=4709 misses=735
 finished...
