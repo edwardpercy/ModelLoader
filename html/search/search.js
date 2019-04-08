@@ -9,14 +9,16 @@ var indexSectionsWithContent =
 {
   0: "chmnprtvï",
   1: "chmptv",
-  2: "nrtï"
+  2: "m",
+  3: "nrtï"
 };
 
 var indexSectionNames =
 {
   0: "all",
   1: "classes",
-  2: "pages"
+  2: "files",
+  3: "pages"
 };
 
 function convertToId(search)
