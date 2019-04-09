@@ -5,23 +5,23 @@ Warning: ignoring unsupported tag `TOC_INCLUDE_HEADINGS   =' at line 335, file /
 Warning: ignoring unsupported tag `GROUP_NESTED_COMPOUNDS =' at line 392, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
 Warning: ignoring unsupported tag `HIDE_COMPOUND_REFERENCE=' at line 563, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
 Warning: ignoring unsupported tag `WARN_AS_ERROR          =' at line 788, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
-Warning: Tag `CLANG_ASSISTED_PARSING' at line 1106 of file /home/travis/build/edwardpercy/ModelLoader/Doxyfile belongs to an option that was not enabled at compile time.
+Warning: Tag `CLANG_ASSISTED_PARSING' at line 1105 of file /home/travis/build/edwardpercy/ModelLoader/Doxyfile belongs to an option that was not enabled at compile time.
 To avoid this warning please remove this line from your configuration file, upgrade it using "doxygen -u", or recompile doxygen with this feature enabled.
-Warning: Tag `CLANG_OPTIONS' at line 1114 of file /home/travis/build/edwardpercy/ModelLoader/Doxyfile belongs to an option that was not enabled at compile time.
+Warning: Tag `CLANG_OPTIONS' at line 1113 of file /home/travis/build/edwardpercy/ModelLoader/Doxyfile belongs to an option that was not enabled at compile time.
 To avoid this warning please remove this line from your configuration file, upgrade it using "doxygen -u", or recompile doxygen with this feature enabled.
-Warning: ignoring unsupported tag `CLANG_DATABASE_PATH    =' at line 1124, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
-Warning: ignoring unsupported tag `HTML_DYNAMIC_MENUS     =' at line 1289, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
-Warning: ignoring unsupported tag `LATEX_MAKEINDEX_CMD    =' at line 1753, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
-Warning: ignoring unsupported tag `LATEX_EXTRA_STYLESHEET =' at line 1820, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
-Warning: ignoring unsupported tag `LATEX_TIMESTAMP        =' at line 1887, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
-Warning: ignoring unsupported tag `LATEX_EMOJI_DIRECTORY  =' at line 1895, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
-Warning: ignoring unsupported tag `RTF_SOURCE_CODE        =' at line 1961, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
-Warning: ignoring unsupported tag `MAN_SUBDIR             =' at line 1996, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
-Warning: ignoring unsupported tag `XML_NS_MEMB_FILE_SCOPE =' at line 2039, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
-Warning: ignoring unsupported tag `DOCBOOK_PROGRAMLISTING =' at line 2066, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
-Warning: ignoring unsupported tag `PLANTUML_JAR_PATH      =' at line 2495, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
-Warning: ignoring unsupported tag `PLANTUML_CFG_FILE      =' at line 2500, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
-Warning: ignoring unsupported tag `PLANTUML_INCLUDE_PATH  =' at line 2505, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
+Warning: ignoring unsupported tag `CLANG_DATABASE_PATH    =' at line 1123, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
+Warning: ignoring unsupported tag `HTML_DYNAMIC_MENUS     =' at line 1288, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
+Warning: ignoring unsupported tag `LATEX_MAKEINDEX_CMD    =' at line 1752, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
+Warning: ignoring unsupported tag `LATEX_EXTRA_STYLESHEET =' at line 1819, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
+Warning: ignoring unsupported tag `LATEX_TIMESTAMP        =' at line 1886, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
+Warning: ignoring unsupported tag `LATEX_EMOJI_DIRECTORY  =' at line 1894, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
+Warning: ignoring unsupported tag `RTF_SOURCE_CODE        =' at line 1960, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
+Warning: ignoring unsupported tag `MAN_SUBDIR             =' at line 1995, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
+Warning: ignoring unsupported tag `XML_NS_MEMB_FILE_SCOPE =' at line 2038, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
+Warning: ignoring unsupported tag `DOCBOOK_PROGRAMLISTING =' at line 2065, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
+Warning: ignoring unsupported tag `PLANTUML_JAR_PATH      =' at line 2494, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
+Warning: ignoring unsupported tag `PLANTUML_CFG_FILE      =' at line 2499, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
+Warning: ignoring unsupported tag `PLANTUML_INCLUDE_PATH  =' at line 2504, file /home/travis/build/edwardpercy/ModelLoader/Doxyfile
 Searching for include files...
 Searching for example files...
 Searching for images...
@@ -69,8 +69,6 @@ Searching for files in directory /home/travis/build/edwardpercy/ModelLoader/Test
 Searching for files in directory /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Vector_Test/Src
 Reading and parsing tag files
 Parsing files
-Preprocessing /home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp...
-Parsing file /home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp...
 Preprocessing /home/travis/build/edwardpercy/ModelLoader/Automated_testing/model_test.cpp...
 Parsing file /home/travis/build/edwardpercy/ModelLoader/Automated_testing/model_test.cpp...
 Preprocessing /home/travis/build/edwardpercy/ModelLoader/Automated_testing/Model_Test.cpp...
@@ -294,67 +292,30 @@ Preprocessing /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individua
 Parsing file /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Calculation_Test/Src/Vector.cpp...
 Preprocessing /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Test/Include/Cell.h...
 Parsing file /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Test/Include/Cell.h...
-Reading /home/travis/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3777: warning: Compound Catch::Generators::RepeatGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3057: warning: Compound Catch::Matchers::Floating::WithinUlpsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1143: warning: Compound Catch::IStream is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2572: warning: Compound Catch::BenchmarkLooper is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1289: warning: Compound Catch::StringMaker is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3166: warning: Compound Catch::Matchers::StdString::EndsWithMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Calculation_Test/Include/Tetrahedron.h:5: warning: Compound Tetrahedron is not documented.
+Reading /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Test/README.md...
+Preprocessing /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Cl/home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Calculation_Test/Include/Tetrahedron.h:5: warning: Compound Tetrahedron is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/SaveModel_Test/include/Tetrahedron.h:5: warning: Compound Tetrahedron is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/LoadModel_Test/include/Cell.h:23: warning: Compound Tetrahedron is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/Tetrahedron.h:5: warning: Compound Tetrahedron is not documented.
 /home/travis/build/edwardpercy/ModelLoader/include/tetrahedron.h:5: warning: Compound Tetrahedron is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Tetrahedron.h:5: warning: Compound Tetrahedron is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1424: warning: Compound Catch::StringMaker< unsigned long long > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1361: warning: Compound Catch::StringMaker< std::wstring > is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/SaveModel_Test/include/Matrix.h:4: warning: Compound Matrix is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/LoadModel_Test/include/Matrix.h:4: warning: Compound Matrix is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/Matrix.h:4: warning: Compound Matrix is not documented.
 /home/travis/build/edwardpercy/ModelLoader/include/matrix.h:13: warning: Compound Matrix is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Matrix.h:13: warning: Compound Matrix is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1238: warning: Compound Catch::Detail::IsStreamInsertable is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4011: warning: Compound Catch::UseColour is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3558: warning: Compound Catch::Generators::FixedValuesGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:494: warning: Compound Catch::ITestCaseRegistry is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:417: warning: Compound Catch::SourceLineInfo is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Calculation_Test/Include/Hexahedron.h:5: warning: Compound Hexahedron is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/SaveModel_Test/include/Hexahedron.h:5: warning: Compound Hexahedron is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/LoadModel_Test/include/Cell.h:27: warning: Compound Hexahedron is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/Hexahedron.h:5: warning: Compound Hexahedron is not documented.
 /home/travis/build/edwardpercy/ModelLoader/include/hexahedron.h:5: warning: Compound Hexahedron is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Hexahedron.h:5: warning: Compound Hexahedron is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3509: warning: Compound Catch::GeneratorException is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1473: warning: Compound Catch::StringMaker< R C::* > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2466: warning: Compound Catch::Totals is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3278: warning: Compound Catch::Matchers::Vector::EqualsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1456: warning: Compound Catch::StringMaker< double > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3171: warning: Compound Catch::Matchers::StdString::RegexMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1339: warning: Compound Catch::StringMaker< std::string > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2500: warning: Compound Catch::SectionEndInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2676: warning: Compound Catch::IExceptionTranslator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2846: warning: Compound Catch::StringMaker< Catch::Detail::Approx > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3154: warning: Compound Catch::Matchers::StdString::EqualsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:801: warning: Compound Catch::combine::with_types::into is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2266: warning: Compound Catch::ScopedMessage is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2933: warning: Compound Catch::Matchers::Impl::MatchAllOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2893: warning: Compound Catch::Matchers::Impl::MatchAllOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3372: warning: Compound Catch::MatchExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3158: warning: Compound Catch::Matchers::StdString::ContainsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3447: warning: Compound Catch::Generators::GeneratorUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:406: warning: Compound Catch::NonCopyable is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3137: warning: Compound Catch::Matchers::StdString::CasedString is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Material_Test/Inc/Material.h:9: warning: Compound Material is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/SaveModel_Test/include/Material.h:9: warning: Compound Material is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/LoadModel_Test/include/Material.h:9: warning: Compound Material is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/Material.h:9: warning: Compound Material is not documented.
 /home/travis/build/edwardpercy/ModelLoader/include/material.h:9: warning: Compound Material is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Material.h:9: warning: Compound Material is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1848: warning: Compound Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2870: warning: Compound Catch::pluralise is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2681: warning: Compound Catch::IExceptionTranslatorRegistry is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2173: warning: Compound Catch::AssertionHandler is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3248: warning: Compound Catch::Matchers::Vector::ContainsMatcher is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Test/Include/Cell.h:8: warning: Compound cell is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Calculation_Test/Include/Cell.h:12: warning: Compound cell is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/SaveModel_Test/include/Cell.h:17: warning: Compound cell is not documented.
@@ -362,35 +323,10 @@ Reading /home/travis/home/travis/build/edwardpercy/ModelLoader/Automated_testing
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/Cell.h:17: warning: Compound cell is not documented.
 /home/travis/build/edwardpercy/ModelLoader/include/cell.h:16: warning: Compound cell is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Cell.h:16: warning: Compound cell is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1397: warning: Compound Catch::StringMaker< unsigned char[SZ]> is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3995: warning: Compound Catch::WarnAbout is not documented.
 /home/travis/build/edwardpercy/ModelLoader/include/mainwindow.h:95: warning: Compound MainWindow is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:95: warning: Compound MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1946: warning: Compound Catch::UnaryExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4259: warning: Compound Catch::IRunner is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2518: warning: Compound Catch::Timer is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2252: warning: Compound Catch::MessageBuilder is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1416: warning: Compound Catch::StringMaker< unsigned int > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:792: warning: Compound Catch::rewrap< Container, List< Elems...>, Elements...> is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1662: warning: Compound Catch::is_range is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1870: warning: Compound Catch::BinaryExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2916: warning: Compound Catch::Matchers::Impl::MatcherMethod is not documented.
 /home/travis/build/edwardpercy/ModelLoader/include/clipdialog.h:13: warning: Compound ClipDialog is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/clipdialog.h:13: warning: Compound ClipDialog is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4025: warning: Compound Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:761: warning: Compound Catch::append< L1< E1...>, L2< E2...> > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1412: warning: Compound Catch::StringMaker< long long > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1404: warning: Compound Catch::StringMaker< int > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1150: warning: Compound Catch::ReusableStringStream is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:486: warning: Compound Catch::ITestInvoker is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1461: warning: Compound Catch::StringMaker< T * > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4191: warning: Compound Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3702: warning: Compound Catch::Generators::TakeGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1438: warning: Compound Catch::StringMaker< signed char > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2087: warning: Compound Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1984: warning: Compound Catch::ExprLhs is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2999: warning: Compound Catch::Matchers::Impl::MatchNotOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2895: warning: Compound Catch::Matchers::Impl::MatchNotOf is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Vector_Test/Inc/Vector.h:17: warning: Compound Vector is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Calculation_Test/Include/Vector.h:17: warning: Compound Vector is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/SaveModel_Test/include/Vector.h:18: warning: Compound Vector is not documented.
@@ -398,85 +334,18 @@ Reading /home/travis/home/travis/build/edwardpercy/ModelLoader/Automated_testing
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/Vector.h:18: warning: Compound Vector is not documented.
 /home/travis/build/edwardpercy/ModelLoader/include/vector.h:18: warning: Compound Vector is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Vector.h:18: warning: Compound Vector is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1351: warning: Compound Catch::StringMaker< char const * > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3146: warning: Compound Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1377: warning: Compound Catch::StringMaker< wchar_t * > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:840: warning: Compound Catch::AutoReg is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1452: warning: Compound Catch::StringMaker< float > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1698: warning: Compound Catch::StringMaker< R, typename std::enable_if< is_range< R >::value &&!::Catch::Detail::IsStreamInsertable< R >::value >::type > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3227: warning: Compound Catch::Matchers::Vector::ContainsElementMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:771: warning: Compound Catch::append< L1< E1...>, L2< E2...>, Rest...> is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:449: warning: Compound Catch::StreamEndStop is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2535: warning: Compound Catch::Section is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1429: warning: Compound Catch::StringMaker< bool > is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Calculation_Test/Include/Pyramid.h:5: warning: Compound Pyramid is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/SaveModel_Test/include/Pyramid.h:5: warning: Compound Pyramid is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/LoadModel_Test/include/Cell.h:19: warning: Compound Pyramid is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/Pyramid.h:5: warning: Compound Pyramid is not documented.
 /home/travis/build/edwardpercy/ModelLoader/include/pyramid.h:5: warning: Compound Pyramid is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Pyramid.h:5: warning: Compound Pyramid is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2277: warning: Compound Catch::Capturer is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:816: warning: Compound Catch::TestInvokerAsMethod is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2224: warning: Compound Catch::MessageInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3461: warning: Compound Catch::IGeneratorTracker is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1434: warning: Compound Catch::StringMaker< char > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2453: warning: Compound Catch::Counts is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3093: warning: Compound Catch::Matchers::Generic::PredicateMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2484: warning: Compound Catch::SectionInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2687: warning: Compound Catch::ExceptionTranslatorRegistrar is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4016: warning: Compound Catch::WaitForKeypress is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3598: warning: Compound Catch::Generators::Generators is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2897: warning: Compound Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3301: warning: Compound Catch::Matchers::Vector::UnorderedEqualsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3942: warning: Compound Catch::IContext is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4125: warning: Compound Catch::Generators::RangeGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1442: warning: Compound Catch::StringMaker< unsigned char > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4083: warning: Compound Catch::Generators::RandomIntegerGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1447: warning: Compound Catch::StringMaker< std::nullptr_t > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4226: warning: Compound Catch::TestCase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3574: warning: Compound Catch::Generators::GeneratorWrapper is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1408: warning: Compound Catch::StringMaker< long > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:834: warning: Compound Catch::NameAndTags is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3882: warning: Compound Catch::Generators::ChunkGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:401: warning: Compound Catch::CaseSensitive is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2151: warning: Compound Catch::LazyExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3830: warning: Compound Catch::Generators::MapGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2631: warning: Compound Catch::IRegistryHub is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3162: warning: Compound Catch::Matchers::StdString::StartsWithMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1705: warning: Compound Catch::StringMaker< T[SZ]> is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1355: warning: Compound Catch::StringMaker< char * > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2643: warning: Compound Catch::IMutableRegistryHub is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3048: warning: Compound Catch::Matchers::Floating::WithinAbsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1373: warning: Compound Catch::StringMaker< wchar_t const * > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2241: warning: Compound Catch::MessageStream is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3951: warning: Compound Catch::IMutableContext is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1385: warning: Compound Catch::StringMaker< char[SZ]> is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:464: warning: Compound Catch::RegistrarForTagAliases is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1087: warning: Compound Catch::ResultDisposition is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2048: warning: Compound Catch::Decomposer is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4006: warning: Compound Catch::RunTests is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3543: warning: Compound Catch::Generators::SingleValueGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2965: warning: Compound Catch::Matchers::Impl::MatchAnyOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2894: warning: Compound Catch::Matchers::Impl::MatchAnyOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1107: warning: Compound Catch::AssertionInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:784: warning: Compound Catch::rewrap< Container, List< elems...> > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2925: warning: Compound Catch::Matchers::Impl::MatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1063: warning: Compound Catch::ResultWas is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3531: warning: Compound Catch::Generators::IGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4060: warning: Compound Catch::Generators::RandomFloatingGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1391: warning: Compound Catch::StringMaker< signed char[SZ]> is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1420: warning: Compound Catch::StringMaker< unsigned long > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2739: warning: Compound Catch::Detail::Approx is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/SaveModel_Test/include/Model.h:17: warning: Compound Model is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/LoadModel_Test/include/Model.h:14: warning: Compound Model is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/Model.h:17: warning: Compound Model is not documented.
 /home/travis/build/edwardpercy/ModelLoader/include/model.h:17: warning: Compound Model is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Model.h:17: warning: Compound Model is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2168: warning: Compound Catch::AssertionReaction is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4001: warning: Compound Catch::ShowDurations is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3738: warning: Compound Catch::Generators::FilterGenerator is not documented.
-/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Test/README.md...
-Preprocessing /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Test/Src/Cell.cpp...
+ass Tests/Cell_Test/Src/Cell.cpp...
 Parsing file /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Test/Src/Cell.cpp...
 Preprocessing /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Test/Src/celltest.cpp...
 Parsing file /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Cell_Test/Src/celltest.cpp...
@@ -548,7 +417,6 @@ Generating style sheet...
 Generating search indices...
 Generating example documentation...
 Generating file sources...
-Generating code for file /home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp...
 Generating code for file /home/travis/build/edwardpercy/ModelLoader/include/cell.h...
 Generating code for file /home/travis/build/edwardpercy/ModelLoader/Include/Cell.h...
 Generating code for file /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/Cell.h...
@@ -617,7 +485,11 @@ Generating docs for page md__home_travis_build_edwardpercy_ModelLoader_Test_Prog
 Generating docs for page md__home_travis_build_edwardpercy_ModelLoader_Test_Programs_Combined_Class_Tests_SaveModel_Test_README...
 Generating docs for page md__home_travis_build_edwardpercy_ModelLoader_Test_Programs_Individual_Class_Tests_Cell_Calculation_Test_README...
 Generating docs for page md__home_travis_build_edwardpercy_ModelLoader_Test_Programs_Individual_Class_Tests_Cell_Test_README...
-Generating docs for page md__home_travis_build_edwardpercy/home/travis/build/edwardpercy/ModelLoader/Include/Cell.h:28: warning: Member setCell(int ID, int m, string type) (function) of class cell is not documented.
+Generating docs for page md__home_travis_build_edwardpercy_ModelLoader_Test_Programs_Individual_Class_Tests_Material_Test_README...
+Generating docs for page md__home_travis_build_edwardpercy_ModelLoader_Test_Programs_Individual_Class_Tests_Vector_Test_README...
+Generating group documentation...
+Generating class documentation...
+Ge/home/travis/build/edwardpercy/ModelLoader/Include/Cell.h:28: warning: Member setCell(int ID, int m, string type) (function) of class cell is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Cell.h:29: warning: Member setVertices(int v) (function) of class cell is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Cell.h:30: warning: Member getVertices() (function) of class cell is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Cell.h:31: warning: Member getType() (function) of class cell is not documented.
@@ -1162,93 +1034,7 @@ Generating docs for page md__home_travis_build_edwardpercy/home/travis/build/edw
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Vector_Test/Inc/Vector.h:36: warning: Member getx() (function) of class Vector is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Vector_Test/Inc/Vector.h:37: warning: Member gety() (function) of class Vector is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Individual Class Tests/Vector_Test/Inc/Vector.h:38: warning: Member getz() (function) of class Vector is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:401: warning: Member Choice (enumeration) of class Catch::CaseSensitive is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:420: warning: Member SourceLineInfo(char const *_file, std::size_t _line) noexcept (function) of class Catch::SourceLineInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:425: warning: Member SourceLineInfo(SourceLineInfo const &other)=default (function) of class Catch::SourceLineInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:426: warning: Member operator=(SourceLineInfo const &)=default (function) of class Catch::SourceLineInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:427: warning: Member SourceLineInfo(SourceLineInfo &&) noexcept=default (function) of class Catch::SourceLineInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:428: warning: Member operator=(SourceLineInfo &&) noexcept=default (function) of class Catch::SourceLineInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:430: warning: Member empty() const noexcept (function) of class Catch::SourceLineInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:431: warning: Member operator==(SourceLineInfo const &other) const noexcept (function) of class Catch::SourceLineInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:432: warning: Member operator<(SourceLineInfo const &other) const noexcept (function) of class Catch::SourceLineInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:434: warning: Member file (variable) of class Catch::SourceLineInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:435: warning: Member line (variable) of class Catch::SourceLineInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:450: warning: Member operator+() const  (function) of class Catch::StreamEndStop is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:465: warning: Member RegistrarForTagAliases(char const *alias, char const *tag, SourceLineInfo const &lineInfo) (function) of class Catch::RegistrarForTagAliases is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:487: warning: Member invoke() const =0 (function) of class Catch::ITestInvoker is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:496: warning: Member getAllTests() const =0 (function) of class Catch::ITestCaseRegistry is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:497: warning: Member getAllTestsSorted(IConfig const &config) const =0 (function) of class Catch::ITestCaseRegistry is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:524: warning: Member size_type (typedef) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:543: warning: Member StringRef(StringRef const &other) noexcept (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:548: warning: Member StringRef(StringRef &&other) noexcept (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:556: warning: Member StringRef(char const *rawChars) noexcept (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:558: warning: Member StringRef(char const *rawChars, size_type size) noexcept (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:563: warning: Member StringRef(std::string const &stdString) noexcept (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:572: warning: Member operator=(StringRef const &other) noexcept-> StringRef & (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:580: warning: Member operator std::string() const  (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:582: warning: Member swap(StringRef &other) noexcept (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:585: warning: Member operator==(StringRef const &other) const noexcept-> bool (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:586: warning: Member operator!=(StringRef const &other) const noexcept-> bool (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:588: warning: Member operator[](size_type index) const noexcept-> char (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:591: warning: Member empty() const noexcept-> bool (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:594: warning: Member size() const noexcept-> size_type (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:598: warning: Member numberOfCharacters() const noexcept-> size_type (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:599: warning: Member c_str() const -> char const * (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:602: warning: Member substr(size_type start, size_type size) const noexcept-> StringRef (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:606: warning: Member currentData() const noexcept-> char const * (function) of class Catch::StringRef is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:762: warning: Member type (typedef) of class Catch::append< L1< E1...>, L2< E2...> > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:772: warning: Member type (typedef) of class Catch::append< L1< E1...>, L2< E2...>, Rest...> is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:785: warning: Member type (typedef) of class Catch::rewrap< Container, List< elems...> > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:793: warning: Member type (typedef) of class Catch::rewrap< Container, List< Elems...>, Elements...> is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:802: warning: Member type (typedef) of class Catch::combine::with_types::into is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:819: warning: Member TestInvokerAsMethod(void(C::*testAsMethod)()) noexcept (function) of class Catch::TestInvokerAsMethod is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:821: warning: Member invoke() const override (function) of class Catch::TestInvokerAsMethod is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:835: warning: Member NameAndTags(StringRef const &name_=StringRef(), StringRef const &tags_=StringRef()) noexcept (function) of class Catch::NameAndTags is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:836: warning: Member name (variable) of class Catch::NameAndTags is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:837: warning: Member tags (variable) of class Catch::NameAndTags is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:841: warning: Member AutoReg(ITestInvoker *invoker, SourceLineInfo const &lineInfo, StringRef const &classOrMethod, NameAndTags const &nameAndTags) noexcept (function) of class Catch::AutoReg is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1063: warning: Member OfType (enumeration) of class Catch::ResultWas is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1087: warning: Member Flags (enumeration) of class Catch::ResultDisposition is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1108: warning: Member macroName (variable) of class Catch::AssertionInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1109: warning: Member lineInfo (variable) of class Catch::AssertionInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1110: warning: Member capturedExpression (variable) of class Catch::AssertionInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1111: warning: Member resultDisposition (variable) of class Catch::AssertionInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1145: warning: Member stream() const =0 (function) of class Catch::IStream is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1157: warning: Member str() const -> std::string (function) of class Catch::ReusableStringStream is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1160: warning: Member operator<<(T const &value) -> ReusableStringStream & (function) of class Catch::ReusableStringStream is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1164: warning: Member get() -> std::ostream & (function) of class Catch::ReusableStringStream is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1293: warning: Member convert(const Fake &value) (function) of class Catch::StringMaker is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1304: warning: Member convert(const Fake &value) (function) of class Catch::StringMaker is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1340: warning: Member convert(const std::string &str) (function) of class Catch::StringMaker< std::string > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1352: warning: Member convert(char const *str) (function) of class Catch::StringMaker< char const * > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1356: warning: Member convert(char *str) (function) of class Catch::StringMaker< char * > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1362: warning: Member convert(const std::wstring &wstr) (function) of class Catch::StringMaker< std::wstring > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1374: warning: Member convert(wchar_t const *str) (function) of class Catch::StringMaker< wchar_t const * > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1378: warning: Member convert(wchar_t *str) (function) of class Catch::StringMaker< wchar_t * > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1386: warning: Member convert(char const *str) (function) of class Catch::StringMaker< char[SZ]> is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1392: warning: Member convert(signed char const *str) (function) of class Catch::StringMaker< signed char[SZ]> is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1398: warning: Member convert(unsigned char const *str) (function) of class Catch::StringMaker< unsigned char[SZ]> is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1405: warning: Member convert(int value) (function) of class Catch::StringMaker< int > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1409: warning: Member convert(long value) (function) of class Catch::StringMaker< long > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1413: warning: Member convert(long long value) (function) of class Catch::StringMaker< long long > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1417: warning: Member convert(unsigned int value) (function) of class Catch::StringMaker< unsigned int > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1421: warning: Member convert(unsigned long value) (function) of class Catch::StringMaker< unsigned long > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1425: warning: Member convert(unsigned long long value) (function) of class Catch::StringMaker< unsigned long long > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1430: warning: Member convert(bool b) (function) of class Catch::StringMaker< bool > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1435: warning: Member convert(char c) (function) of class Catch::StringMaker< char > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1439: warning: Member convert(signed char c) (function) of class Catch::StringMaker< signed char > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1443: warning: Member convert(unsigned char c) (function) of class Catch::StringMaker< unsigned char > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1448: warning: Member convert(std::nullptr_t) (function) of class Catch::StringMaker< std::nullptr_t > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1453: warning: Member convert(float value) (function) of class Catch::StringMaker< float > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1457: warning: Member convert(double value) (function) of class Catch::StringMaker< double > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1463: warning: Member convert(U *p) (function) of class Catch::StringMaker< T * > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1474: warning: Member convert(R C::*p) (function) of class Catch::StringMaker< R C::* > is not documented.
-_ModelLoader_Test_Programs_Individual_Class_Tests_Material_Test_README...
-Generating docs for page md__home_travis_build_edwardpercy_ModelLoader_Test_Programs_Individual_Class_Tests_Vector_Test_README...
-Generating group documentation...
-Generating class documentation...
-Generating docs for compound Catch_global_namespace_dummy...
-Generating docs for compound cell...
+nerating docs for compound cell...
 Generating docs for compound ClipDialog...
 Generating docs for compound Hexahedron...
 Generating docs for compound MainWindow...
@@ -1259,564 +1045,6 @@ Generating docs for compound Pyramid...
 Generating docs for compound Tetrahedron...
 Generating docs for compound Vector...
 Generating namespace index...
-Generating docs for compound Catch::CaseSensitive...
-Generating docs for compound Catch::NonCopyable...
-Generating docs for compound Catch::SourceLineInfo...
-Generating docs for compound Catch::StreamEndStop...
-Generating docs for compound Catch::RegistrarForTagAliases...
-Generating docs for compound Catch::ITestInvoker...
-Generating docs for compound Catch::ITestCaseRegistry...
-Generating docs for compound Catch::StringRef...
-Generating docs for compound Catch::is_unique...
-Generating docs for compound Catch::is_unique< T0, T1, Rest...>...
-Generating docs for compound Catch::TypeList...
-Generating docs for compound Catch::append...
-Generating docs for compound Catch::append< L1< E1...>, L2< E2...> >...
-Generating docs for compound Catch::append< L1< E1...>, L2< E2...>, Rest...>...
-Generating docs for compound Catch::rewrap...
-Generating docs for compound Catch::rewrap< Container, List< elems...> >...
-Generating docs for compound Catch::rewrap< Container, List< Elems...>, Elements...>...
-Generating docs for compound Catch::combine...
-Generating docs for nested compound Catch::combine::with_types...
-Generating docs for nested compound Catch::combine::with_types::into...
-Generating docs for compound Catch::always_false...
-Generating docs for compound Catch::TestInvokerAsMethod...
-Generating docs for compound Catch::NameAndTags...
-Generating docs for compound Catch::AutoReg...
-Generating docs for compound Catch::ResultWas...
-Generating docs for compound Catch::ResultDisposition...
-Generating docs for compound Catch::AssertionInfo...
-Generating docs for compound Catch::IStream...
-Generating docs for compound Catch::ReusableStringStream...
-Generating docs for compound Catch::StringMaker...
-Generating docs for compound Catch::StringMaker< std::string >...
-Generating docs for compound Catch::StringMaker< char const * >...
-Generating docs for compound Catch::StringMaker< char * >...
-Generating docs for compound Catch::StringMaker< std::wstring >...
-Generating docs for compound Catch::StringMaker< wchar_t const * >...
-Generating docs for compound Catch::StringMaker< wchar_t * >...
-Generating docs for compound Catch::StringMaker< char[SZ]>...
-Generating docs for compound Catch::StringMaker< signed char[SZ]>...
-Generating docs for compound Catch::StringMaker< unsigned char[SZ]>...
-Generating docs for compound Catch::StringMaker< int >...
-Generating docs for compound Catch::StringMaker< long >...
-Generating docs for compound Catch::StringMaker< long long >...
-Generating docs for compound Catch::StringMaker< unsigned int >...
-Generating docs for compound Catch::StringMaker< unsigned long >...
-Generating docs for compound Catch::StringMaker< unsigned long long >...
-Generating docs for compound Catch::StringMaker< bool >...
-Generating docs for compound Catch::StringMaker< char >...
-Generating docs for compound Catch::StringMaker< signed char >...
-Generating docs for compound Catch::StringMaker< unsigned char >...
-Generating docs for compound Catch::StringMaker< std::nullptr_t >...
-Generating docs for compound Catch::StringMaker< float >...
-Generating docs for compound Catch::StringMaker< double >...
-Generating docs for compound Catch::StringMaker< T * >...
-Generating docs for compound Catch::StringMaker< R C::* >...
-Generating docs for compound Catch::not_this_one...
-Generating do/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1663: warning: Member value (variable) of class Catch::is_range is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1699: warning: Member convert(R const &range) (function) of class Catch::StringMaker< R, typename std::enable_if< is_range< R >::value &&!::Catch::Detail::IsStreamInsertable< R >::value >::type > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1706: warning: Member convert(T const (&arr)[SZ]) (function) of class Catch::StringMaker< T[SZ]> is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1849: warning: Member isBinaryExpression() const -> bool (function) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1850: warning: Member getResult() const -> bool (function) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1851: warning: Member streamReconstructedExpression(std::ostream &os) const =0 (function) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1853: warning: Member ITransientExpression(bool isBinaryExpression, bool result) (function) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1862: warning: Member m_isBinaryExpression (variable) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1863: warning: Member m_result (variable) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1881: warning: Member BinaryExpr(bool comparisonResult, LhsT lhs, StringRef op, RhsT rhs) (function) of class Catch::BinaryExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1889: warning: Member operator&&(T) const -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::BinaryExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1896: warning: Member operator||(T) const -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::BinaryExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1903: warning: Member operator==(T) const -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::BinaryExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1910: warning: Member operator!=(T) const -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::BinaryExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1917: warning: Member operator>(T) const -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::BinaryExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1924: warning: Member operator<(T) const -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::BinaryExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1931: warning: Member operator>=(T) const -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::BinaryExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1938: warning: Member operator<=(T) const -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::BinaryExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1849: warning: Member isBinaryExpression() const -> bool (function) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1850: warning: Member getResult() const -> bool (function) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1853: warning: Member ITransientExpression(bool isBinaryExpression, bool result) (function) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1862: warning: Member m_isBinaryExpression (variable) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1863: warning: Member m_result (variable) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1954: warning: Member UnaryExpr(LhsT lhs) (function) of class Catch::UnaryExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1849: warning: Member isBinaryExpression() const -> bool (function) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1850: warning: Member getResult() const -> bool (function) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1853: warning: Member ITransientExpression(bool isBinaryExpression, bool result) (function) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1862: warning: Member m_isBinaryExpression (variable) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1863: warning: Member m_result (variable) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1987: warning: Member ExprLhs(LhsT lhs) (function) of class Catch::ExprLhs is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1990: warning: Member operator==(RhsT const &rhs) -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::ExprLhs is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1993: warning: Member operator==(bool rhs) -> BinaryExpr< LhsT, bool > const  (function) of class Catch::ExprLhs is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1998: warning: Member operator!=(RhsT const &rhs) -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::ExprLhs is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2001: warning: Member operator!=(bool rhs) -> BinaryExpr< LhsT, bool > const  (function) of class Catch::ExprLhs is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2006: warning: Member operator>(RhsT const &rhs) -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::ExprLhs is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2010: warning: Member operator<(RhsT const &rhs) -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::ExprLhs is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2014: warning: Member operator>=(RhsT const &rhs) -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::ExprLhs is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2018: warning: Member operator<=(RhsT const &rhs) -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::ExprLhs is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2023: warning: Member operator&&(RhsT const &) -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::ExprLhs is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2030: warning: Member operator||(RhsT const &) -> BinaryExpr< LhsT, RhsT const & > const  (function) of class Catch::ExprLhs is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2036: warning: Member makeUnaryExpr() const -> UnaryExpr< LhsT > (function) of class Catch::ExprLhs is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2050: warning: Member operator<=(T const &lhs) -> ExprLhs< T const & > (function) of class Catch::Decomposer is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2054: warning: Member operator<=(bool value) -> ExprLhs< bool > (function) of class Catch::Decomposer is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2091: warning: Member sectionStarted(SectionInfo const &sectionInfo, Counts &assertions)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2093: warning: Member sectionEnded(SectionEndInfo const &endInfo)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2094: warning: Member sectionEndedEarly(SectionEndInfo const &endInfo)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2096: warning: Member acquireGeneratorTracker(SourceLineInfo const &lineInfo) -> IGeneratorTracker &=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2098: warning: Member benchmarkStarting(BenchmarkInfo const &info)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2099: warning: Member benchmarkEnded(BenchmarkStats const &stats)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2101: warning: Member pushScopedMessage(MessageInfo const &message)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2102: warning: Member popScopedMessage(MessageInfo const &message)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2104: warning: Member emplaceUnscopedMessage(MessageBuilder const &builder)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2106: warning: Member handleFatalErrorCondition(StringRef message)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2108: warning: Member handleExpr(AssertionInfo const &info, ITransientExpression const &expr, AssertionReaction &reaction)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2112: warning: Member handleMessage(AssertionInfo const &info, ResultWas::OfType resultType, StringRef const &message, AssertionReaction &reaction)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2117: warning: Member handleUnexpectedExceptionNotThrown(AssertionInfo const &info, AssertionReaction &reaction)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2120: warning: Member handleUnexpectedInflightException(AssertionInfo const &info, std::string const &message, AssertionReaction &reaction)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2124: warning: Member handleIncomplete(AssertionInfo const &info)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2126: warning: Member handleNonExpr(AssertionInfo const &info, ResultWas::OfType resultType, AssertionReaction &reaction)=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2131: warning: Member lastAssertionPassed()=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2132: warning: Member assertionPassed()=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2135: warning: Member getCurrentTestName() const =0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2136: warning: Member getLastResult() const =0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2137: warning: Member exceptionEarlyReported()=0 (function) of class Catch::IResultCapture is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2159: warning: Member LazyExpression(bool isNegated) (function) of class Catch::LazyExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2160: warning: Member LazyExpression(LazyExpression const &other) (function) of class Catch::LazyExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2161: warning: Member operator=(LazyExpression const &)=delete (function) of class Catch::LazyExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2163: warning: Member operator bool() const  (function) of class Catch::LazyExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2165: warning: Member operator<<(std::ostream &os, LazyExpression const &lazyExpr) -> std::ostream & (friend) of class Catch::LazyExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2169: warning: Member shouldDebugBreak (variable) of class Catch::AssertionReaction is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2170: warning: Member shouldThrow (variable) of class Catch::AssertionReaction is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2180: warning: Member AssertionHandler(StringRef const &macroName, SourceLineInfo const &lineInfo, StringRef capturedExpression, ResultDisposition::Flags resultDisposition) (function) of class Catch::AssertionHandler is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2192: warning: Member handleExpr(ExprLhs< T > const &expr) (function) of class Catch::AssertionHandler is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2195: warning: Member handleExpr(ITransientExpression const &expr) (function) of class Catch::AssertionHandler is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2197: warning: Member handleMessage(ResultWas::OfType resultType, StringRef const &message) (function) of class Catch::AssertionHandler is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2199: warning: Member handleExceptionThrownAsExpected() (function) of class Catch::AssertionHandler is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2200: warning: Member handleUnexpectedExceptionNotThrown() (function) of class Catch::AssertionHandler is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2201: warning: Member handleExceptionNotThrownAsExpected() (function) of class Catch::AssertionHandler is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2202: warning: Member handleThrowingCallSkipped() (function) of class Catch::AssertionHandler is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2203: warning: Member handleUnexpectedInflightException() (function) of class Catch::AssertionHandler is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2205: warning: Member complete() (function) of class Catch::AssertionHandler is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2206: warning: Member setCompleted() (function) of class Catch::AssertionHandler is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2209: warning: Member allowThrows() const -> bool (function) of class Catch::AssertionHandler is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2225: warning: Member MessageInfo(StringRef const &_macroName, SourceLineInfo const &_lineInfo, ResultWas::OfType _type) (function) of class Catch::MessageInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2235: warning: Member operator==(MessageInfo const &other) const  (function) of class Catch::MessageInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2236: warning: Member operator<(MessageInfo const &other) const  (function) of class Catch::MessageInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2229: warning: Member macroName (variable) of class Catch::MessageInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2230: warning: Member message (variable) of class Catch::MessageInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2231: warning: Member lineInfo (variable) of class Catch::MessageInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2232: warning: Member type (variable) of class Catch::MessageInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2233: warning: Member sequence (variable) of class Catch::MessageInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2244: warning: Member operator<<(T const &value) (function) of class Catch::MessageStream is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2249: warning: Member m_stream (variable) of class Catch::MessageStream is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2253: warning: Member MessageBuilder(StringRef const &macroName, SourceLineInfo const &lineInfo, ResultWas::OfType type) (function) of class Catch::MessageBuilder is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2258: warning: Member operator<<(T const &value) (function) of class Catch::MessageBuilder is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2244: warning: Member operator<<(T const &value) (function) of class Catch::MessageStream is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2263: warning: Member m_info (variable) of class Catch::MessageBuilder is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2249: warning: Member m_stream (variable) of class Catch::MessageStream is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2268: warning: Member ScopedMessage(MessageBuilder const &builder) (function) of class Catch::ScopedMessage is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2269: warning: Member ScopedMessage(ScopedMessage &duplicate)=delete (function) of class Catch::ScopedMessage is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2270: warning: Member ScopedMessage(ScopedMessage &&old) (function) of class Catch::ScopedMessage is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2273: warning: Member m_info (variable) of class Catch::ScopedMessage is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2274: warning: Member m_moved (variable) of class Catch::ScopedMessage is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2282: warning: Member Capturer(StringRef macroName, SourceLineInfo const &lineInfo, ResultWas::OfType resultType, StringRef names) (function) of class Catch::Capturer is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2285: warning: Member captureValue(size_t index, std::string const &value) (function) of class Catch::Capturer is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2288: warning: Member captureValues(size_t index, T const &value) (function) of class Catch::Capturer is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2293: warning: Member captureValues(size_t index, T const &value, Ts const &...values) (function) of class Catch::Capturer is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2454: warning: Member operator-(Counts const &other) const  (function) of class Catch::Counts is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2455: warning: Member operator+=(Counts const &other) (function) of class Catch::Counts is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2457: warning: Member total() const  (function) of class Catch::Counts is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2458: warning: Member allPassed() const  (function) of class Catch::Counts is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2459: warning: Member allOk() const  (function) of class Catch::Counts is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2461: warning: Member passed (variable) of class Catch::Counts is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2462: warning: Member failed (variable) of class Catch::Counts is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2463: warning: Member failedButOk (variable) of class Catch::Counts is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2468: warning: Member operator-(Totals const &other) const  (function) of class Catch::Totals is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2469: warning: Member operator+=(Totals const &other) (function) of class Catch::Totals is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2471: warning: Member delta(Totals const &prevTotals) const  (function) of class Catch::Totals is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2473: warning: Member error (variable) of class Catch::Totals is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2474: warning: Member assertions (variable) of class Catch::Totals is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2475: warning: Member testCases (variable) of class Catch::Totals is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2485: warning: Member SectionInfo(SourceLineInfo const &_lineInfo, std::string const &_name) (function) of class Catch::SectionInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2490: warning: Member SectionInfo(SourceLineInfo const &_lineInfo, std::string const &_name, std::string const &) (function) of class Catch::SectionInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2495: warning: Member name (variable) of class Catch::SectionInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2496: warning: Member description (variable) of class Catch::SectionInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2497: warning: Member lineInfo (variable) of class Catch::SectionInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2501: warning: Member sectionInfo (variable) of class Catch::SectionEndInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2502: warning: Member prevAssertions (variable) of class Catch::SectionEndInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2503: warning: Member durationInSeconds (variable) of class Catch::SectionEndInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2521: warning: Member start() (function) of class Catch::Timer is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2522: warning: Member getElapsedNanoseconds() const -> uint64_t (function) of class Catch::Timer is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2523: warning: Member getElapsedMicroseconds() const -> uint64_t (function) of class Catch::Timer is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2524: warning: Member getElapsedMilliseconds() const -> unsigned int (function) of class Catch::Timer is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2525: warning: Member getElapsedSeconds() const -> double (function) of class Catch::Timer is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2537: warning: Member Section(SectionInfo const &info) (function) of class Catch::Section is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2541: warning: Member operator bool() const  (function) of class Catch::Section is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2583: warning: Member BenchmarkLooper(StringRef name) (function) of class Catch::BenchmarkLooper is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2591: warning: Member operator bool() (function) of class Catch::BenchmarkLooper is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2597: warning: Member increment() (function) of class Catch::BenchmarkLooper is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2601: warning: Member reportStart() (function) of class Catch::BenchmarkLooper is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2602: warning: Member needsMoreIterations() -> bool (function) of class Catch::BenchmarkLooper is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2634: warning: Member getReporterRegistry() const =0 (function) of class Catch::IRegistryHub is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2635: warning: Member getTestCaseRegistry() const =0 (function) of class Catch::IRegistryHub is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2636: warning: Member getTagAliasRegistry() const =0 (function) of class Catch::IRegistryHub is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2638: warning: Member getExceptionTranslatorRegistry() const =0 (function) of class Catch::IRegistryHub is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2640: warning: Member getStartupExceptionRegistry() const =0 (function) of class Catch::IRegistryHub is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2645: warning: Member registerReporter(std::string const &name, IReporterFactoryPtr const &factory)=0 (function) of class Catch::IMutableRegistryHub is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2646: warning: Member registerListener(IReporterFactoryPtr const &factory)=0 (function) of class Catch::IMutableRegistryHub is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2647: warning: Member registerTest(TestCase const &testInfo)=0 (function) of class Catch::IMutableRegistryHub is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2648: warning: Member registerTranslator(const IExceptionTranslator *translator)=0 (function) of class Catch::IMutableRegistryHub is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2649: warning: Member registerTagAlias(std::string const &alias, std::string const &tag, SourceLineInfo const &lineInfo)=0 (function) of class Catch::IMutableRegistryHub is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2650: warning: Member registerStartupException() noexcept=0 (function) of class Catch::IMutableRegistryHub is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2678: warning: Member translate(ExceptionTranslators::const_iterator it, ExceptionTranslators::const_iterator itEnd) const =0 (function) of class Catch::IExceptionTranslator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2684: warning: Member translateActiveException() const =0 (function) of class Catch::IExceptionTranslatorRegistry is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2714: warning: Member ExceptionTranslatorRegistrar(std::string(*translateFunction)(T &)) (function) of class Catch::ExceptionTranslatorRegistrar is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2847: warning: Member convert(Catch::Detail::Approx const &value) (function) of class Catch::StringMaker< Catch::Detail::Approx > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2871: warning: Member pluralise(std::size_t count, std::string const &label) (function) of class Catch::pluralise is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2875: warning: Member m_count (variable) of class Catch::pluralise is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2876: warning: Member m_label (variable) of class Catch::pluralise is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2873: warning: Member operator<<(std::ostream &os, pluralise const &pluraliser) (friend) of class Catch::pluralise is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3377: warning: Member MatchExpr(ArgT const &arg, MatcherT const &matcher, StringRef const &matcherString) (function) of class Catch::MatchExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3384: warning: Member streamReconstructedExpression(std::ostream &os) const override (function) of class Catch::MatchExpr is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1849: warning: Member isBinaryExpression() const -> bool (function) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1850: warning: Member getResult() const -> bool (function) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1853: warning: Member ITransientExpression(bool isBinaryExpression, bool result) (function) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1862: warning: Member m_isBinaryExpression (variable) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1863: warning: Member m_result (variable) of class Catch::ITransientExpression is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3463: warning: Member hasGenerator() const -> bool=0 (function) of class Catch::IGeneratorTracker is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3464: warning: Member getGenerator() const -> Generators::GeneratorBasePtr const &=0 (function) of class Catch::IGeneratorTracker is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3465: warning: Member setGenerator(Generators::GeneratorBasePtr &&generator)=0 (function) of class Catch::IGeneratorTracker is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3513: warning: Member GeneratorException(const char *msg) (function) of class Catch::GeneratorException is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3517: warning: Member what() const noexceptoverridefinal (function) of class Catch::GeneratorException is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3945: warning: Member getResultCapture()=0 (function) of class Catch::IContext is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3946: warning: Member getRunner()=0 (function) of class Catch::IContext is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3947: warning: Member getConfig() const =0 (function) of class Catch::IContext is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3953: warning: Member setResultCapture(IResultCapture *resultCapture)=0 (function) of class Catch::IMutableContext is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3954: warning: Member setRunner(IRunner *runner)=0 (function) of class Catch::IMutableContext is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3955: warning: Member setConfig(IConfigPtr const &config)=0 (function) of class Catch::IMutableContext is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3945: warning: Member getResultCapture()=0 (function) of class Catch::IContext is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3946: warning: Member getRunner()=0 (function) of class Catch::IContext is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3947: warning: Member getConfig() const =0 (function) of class Catch::IContext is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3995: warning: Member What (enumeration) of class Catch::WarnAbout is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4001: warning: Member OrNot (enumeration) of class Catch::ShowDurations is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4006: warning: Member InWhatOrder (enumeration) of class Catch::RunTests is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4011: warning: Member YesOrNo (enumeration) of class Catch::UseColour is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4016: warning: Member When (enumeration) of class Catch::WaitForKeypress is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4029: warning: Member allowThrows() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4030: warning: Member stream() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4031: warning: Member name() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4032: warning: Member includeSuccessfulResults() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4033: warning: Member shouldDebugBreak() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4034: warning: Member warnAboutMissingAssertions() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4035: warning: Member warnAboutNoTests() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4036: warning: Member abortAfter() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4037: warning: Member showInvisibles() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4038: warning: Member showDurations() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4039: warning: Member testSpec() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4040: warning: Member hasTestFilters() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4041: warning: Member getTestsOrTags() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4042: warning: Member runOrder() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4043: warning: Member rngSeed() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4044: warning: Member benchmarkResolutionMultiple() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4045: warning: Member useColour() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4046: warning: Member getSectionsToRun() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4047: warning: Member verbosity() const =0 (function) of class Catch::IConfig is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4192: warning: Member SpecialProperties (enumeration) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4202: warning: Member TestCaseInfo(std::string const &_name, std::string const &_className, std::string const &_description, std::vector< std::string > const &_tags, SourceLineInfo const &_lineInfo) (function) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4210: warning: Member isHidden() const  (function) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4211: warning: Member throws() const  (function) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4212: warning: Member okToFail() const  (function) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4213: warning: Member expectedToFail() const  (function) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4215: warning: Member tagsAsString() const  (function) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4217: warning: Member name (variable) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4218: warning: Member className (variable) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4219: warning: Member description (variable) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4220: warning: Member tags (variable) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4221: warning: Member lcaseTags (variable) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4222: warning: Member lineInfo (variable) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4223: warning: Member properties (variable) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4208: warning: Member setTags(TestCaseInfo &testCaseInfo, std::vector< std::string > tags) (friend) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4229: warning: Member TestCase(ITestInvoker *testCase, TestCaseInfo &&info) (function) of class Catch::TestCase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4231: warning: Member withName(std::string const &_newName) const  (function) of class Catch::TestCase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4233: warning: Member invoke() const  (function) of class Catch::TestCase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4235: warning: Member getTestCaseInfo() const  (function) of class Catch::TestCase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4237: warning: Member operator==(TestCase const &other) const  (function) of class Catch::TestCase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4238: warning: Member operator<(TestCase const &other) const  (function) of class Catch::TestCase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4202: warning: Member TestCaseInfo(std::string const &_name, std::string const &_className, std::string const &_description, std::vector< std::string > const &_tags, SourceLineInfo const &_lineInfo) (function) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4210: warning: Member isHidden() const  (function) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4211: warning: Member throws() const  (function) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4212: warning: Member okToFail() const  (function) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4213: warning: Member expectedToFail() const  (function) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4215: warning: Member tagsAsString() const  (function) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4192: warning: Member SpecialProperties (enumeration) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4217: warning: Member name (variable) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4218: warning: Member className (variable) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4219: warning: Member description (variable) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4220: warning: Member tags (variable) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4221: warning: Member lcaseTags (variable) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4222: warning: Member lineInfo (variable) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4223: warning: Member properties (variable) of class Catch::TestCaseInfo is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4261: warning: Member aborting() const =0 (function) of class Catch::IRunner is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:1247: warning: Member value (variable) of class Catch::Detail::IsStreamInsertable is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2750: warning: Member Approx(double value) (function) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2754: warning: Member operator-() const  (function) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2757: warning: Member operator()(T const &value) (function) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2766: warning: Member Approx(T const &value) (function) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2811: warning: Member epsilon(T const &newEpsilon) (function) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2818: warning: Member margin(T const &newMargin) (function) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2825: warning: Member scale(T const &newScale) (function) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2830: warning: Member toString() const  (function) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2752: warning: Member custom() (function) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2770: warning: Member operator==(const T &lhs, Approx const &rhs) (friend) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2776: warning: Member operator==(Approx const &lhs, const T &rhs) (friend) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2781: warning: Member operator!=(T const &lhs, Approx const &rhs) (friend) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2786: warning: Member operator!=(Approx const &lhs, T const &rhs) (friend) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2791: warning: Member operator<=(T const &lhs, Approx const &rhs) (friend) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2796: warning: Member operator<=(Approx const &lhs, T const &rhs) (friend) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2801: warning: Member operator>=(T const &lhs, Approx const &rhs) (friend) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2806: warning: Member operator>=(Approx const &lhs, T const &rhs) (friend) of class Catch::Detail::Approx is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3455: warning: Member next()=0 (function) of class Catch::Generators::GeneratorUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3539: warning: Member type (typedef) of class Catch::Generators::IGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3538: warning: Member get() const =0 (function) of class Catch::Generators::IGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3455: warning: Member next()=0 (function) of class Catch::Generators::GeneratorUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3546: warning: Member SingleValueGenerator(T const &value) (function) of class Catch::Generators::SingleValueGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3547: warning: Member SingleValueGenerator(T &&value) (function) of class Catch::Generators::SingleValueGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3549: warning: Member get() const override (function) of class Catch::Generators::SingleValueGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3552: warning: Member next() override (function) of class Catch::Generators::SingleValueGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3539: warning: Member type (typedef) of class Catch::Generators::IGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3562: warning: Member FixedValuesGenerator(std::initializer_list< T > values) (function) of class Catch::Generators::FixedValuesGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3564: warning: Member get() const override (function) of class Catch::Generators::FixedValuesGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3567: warning: Member next() override (function) of class Catch::Generators::FixedValuesGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3539: warning: Member type (typedef) of class Catch::Generators::IGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3577: warning: Member GeneratorWrapper(std::unique_ptr< IGenerator< T >> generator) (function) of class Catch::Generators::GeneratorWrapper is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3580: warning: Member get() const  (function) of class Catch::Generators::GeneratorWrapper is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3583: warning: Member next() (function) of class Catch::Generators::GeneratorWrapper is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3620: warning: Member Generators(Gs...moreGenerators) (function) of class Catch::Generators::Generators is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3625: warning: Member get() const override (function) of class Catch::Generators::Generators is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3629: warning: Member next() override (function) of class Catch::Generators::Generators is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3539: warning: Member type (typedef) of class Catch::Generators::IGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3707: warning: Member TakeGenerator(size_t target, GeneratorWrapper< T > &&generator) (function) of class Catch::Generators::TakeGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3713: warning: Member get() const override (function) of class Catch::Generators::TakeGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3716: warning: Member next() override (function) of class Catch::Generators::TakeGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3539: warning: Member type (typedef) of class Catch::Generators::IGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3743: warning: Member FilterGenerator(P &&pred, GeneratorWrapper< T > &&generator) (function) of class Catch::Generators::FilterGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3757: warning: Member get() const override (function) of class Catch::Generators::FilterGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3761: warning: Member next() override (function) of class Catch::Generators::FilterGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3539: warning: Member type (typedef) of class Catch::Generators::IGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3784: warning: Member RepeatGenerator(size_t repeats, GeneratorWrapper< T > &&generator) (function) of class Catch::Generators::RepeatGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3791: warning: Member get() const override (function) of class Catch::Generators::RepeatGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3799: warning: Member next() override (function) of class Catch::Generators::RepeatGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3539: warning: Member type (typedef) of class Catch::Generators::IGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3838: warning: Member MapGenerator(F2 &&function, GeneratorWrapper< U > &&generator) (function) of class Catch::Generators::MapGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3844: warning: Member get() const override (function) of class Catch::Generators::MapGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3847: warning: Member next() override (function) of class Catch::Generators::MapGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3539: warning: Member type (typedef) of class Catch::Generators::IGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3888: warning: Member ChunkGenerator(size_t size, GeneratorWrapper< T > generator) (function) of class Catch::Generators::ChunkGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3900: warning: Member get() const override (function) of class Catch::Generators::ChunkGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3903: warning: Member next() override (function) of class Catch::Generators::ChunkGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3539: warning: Member type (typedef) of class IGenerator< std::vector< T > > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4067: warning: Member RandomFloatingGenerator(Float a, Float b) (function) of class Catch::Generators::RandomFloatingGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4073: warning: Member get() const override (function) of class Catch::Generators::RandomFloatingGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4076: warning: Member next() override (function) of class Catch::Generators::RandomFloatingGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3539: warning: Member type (typedef) of class IGenerator< Float > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4089: warning: Member RandomIntegerGenerator(Integer a, Integer b) (function) of class Catch::Generators::RandomIntegerGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4095: warning: Member get() const override (function) of class Catch::Generators::RandomIntegerGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4098: warning: Member next() override (function) of class Catch::Generators::RandomIntegerGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3539: warning: Member type (typedef) of class IGenerator< Integer > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4132: warning: Member RangeGenerator(T const &start, T const &end, T const &step) (function) of class Catch::Generators::RangeGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4143: warning: Member RangeGenerator(T const &start, T const &end) (function) of class Catch::Generators::RangeGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4147: warning: Member get() const override (function) of class Catch::Generators::RangeGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:4151: warning: Member next() override (function) of class Catch::Generators::RangeGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3539: warning: Member type (typedef) of class Catch::Generators::IGenerator is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3049: warning: Member WithinAbsMatcher(double target, double margin) (function) of class Catch::Matchers::Floating::WithinAbsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3050: warning: Member match(double const &matchee) const override (function) of class Catch::Matchers::Floating::WithinAbsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3051: warning: Member describe() const override (function) of class Catch::Matchers::Floating::WithinAbsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3058: warning: Member WithinUlpsMatcher(double target, int ulps, FloatingPointKind baseType) (function) of class Catch::Matchers::Floating::WithinUlpsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3059: warning: Member match(double const &matchee) const override (function) of class Catch::Matchers::Floating::WithinUlpsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3060: warning: Member describe() const override (function) of class Catch::Matchers::Floating::WithinUlpsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3098: warning: Member PredicateMatcher(std::function< bool(T const &)> const &elem, std::string const &descr) (function) of class Catch::Matchers::Generic::PredicateMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3103: warning: Member match(T const &item) const override (function) of class Catch::Matchers::Generic::PredicateMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3107: warning: Member describe() const override (function) of class Catch::Matchers::Generic::PredicateMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2934: warning: Member match(ArgT const &arg) const override (function) of class Catch::Matchers::Impl::MatchAllOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2941: warning: Member describe() const override (function) of class Catch::Matchers::Impl::MatchAllOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2957: warning: Member operator&&(MatcherBase< ArgT > const &other) (function) of class Catch::Matchers::Impl::MatchAllOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2927: warning: Member operator&&(MatcherBase const &other) const (function) of class MatcherBase< ArgT > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2928: warning: Member operator||(MatcherBase const &other) const (function) of class MatcherBase< ArgT > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2929: warning: Member operator!() const (function) of class MatcherBase< ArgT > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2900: warning: Member MatcherUntypedBase(MatcherUntypedBase const &)=default (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2901: warning: Member operator=(MatcherUntypedBase const &)=delete (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2902: warning: Member toString() const  (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2962: warning: Member m_matchers (variable) of class Catch::Matchers::Impl::MatchAllOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2907: warning: Member m_cachedToString (variable) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2967: warning: Member match(ArgT const &arg) const override (function) of class Catch::Matchers::Impl::MatchAnyOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2974: warning: Member describe() const override (function) of class Catch::Matchers::Impl::MatchAnyOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2990: warning: Member operator||(MatcherBase< ArgT > const &other) (function) of class Catch::Matchers::Impl::MatchAnyOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2927: warning: Member operator&&(MatcherBase const &other) const (function) of class MatcherBase< ArgT > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2928: warning: Member operator||(MatcherBase const &other) const (function) of class MatcherBase< ArgT > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2929: warning: Member operator!() const (function) of class MatcherBase< ArgT > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2900: warning: Member MatcherUntypedBase(MatcherUntypedBase const &)=default (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2901: warning: Member operator=(MatcherUntypedBase const &)=delete (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2902: warning: Member toString() const  (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2995: warning: Member m_matchers (variable) of class Catch::Matchers::Impl::MatchAnyOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2907: warning: Member m_cachedToString (variable) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3001: warning: Member MatchNotOf(MatcherBase< ArgT > const &underlyingMatcher) (function) of class Catch::Matchers::Impl::MatchNotOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3003: warning: Member match(ArgT const &arg) const override (function) of class Catch::Matchers::Impl::MatchNotOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3007: warning: Member describe() const override (function) of class Catch::Matchers::Impl::MatchNotOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2927: warning: Member operator&&(MatcherBase const &other) const (function) of class MatcherBase< ArgT > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2928: warning: Member operator||(MatcherBase const &other) const (function) of class MatcherBase< ArgT > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2929: warning: Member operator!() const (function) of class MatcherBase< ArgT > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2900: warning: Member MatcherUntypedBase(MatcherUntypedBase const &)=default (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2901: warning: Member operator=(MatcherUntypedBase const &)=delete (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2902: warning: Member toString() const  (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3010: warning: Member m_underlyingMatcher (variable) of class Catch::Matchers::Impl::MatchNotOf is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2907: warning: Member m_cachedToString (variable) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-cs for compound Catch::is_range...
-Generating docs for compound Catch::StringMaker< R, typename std::enable_if< is_range< R >::value &&!::Catch::Detail::IsStreamInsertable< R >::value >::type >...
-Generating docs for compound Catch::StringMaker< T[SZ]>...
-Generating docs for compound Catch::ITransientExpression...
-Generating docs for compound Catch::BinaryExpr...
-Generating docs for compound Catch::UnaryExpr...
-Generating docs for compound Catch::ExprLhs...
-Generating docs for compound Catch::Decomposer...
-Generating docs for compound Catch::IResultCapture...
-Generating docs for compound Catch::TestFailureException...
-Generating docs for compound Catch::LazyExpression...
-Generating docs for compound Catch::AssertionReaction...
-Generating docs for compound Catch::AssertionHandler...
-Generating docs for compound Catch::MessageInfo...
-Generating docs for compound Catch::MessageStream...
-Generating docs for compound Catch::MessageBuilder...
-Generating docs for compound Catch::ScopedMessage...
-Generating docs for compound Catch::Capturer...
-Generating docs for compound Catch::Counts...
-Generating docs for compound Catch::Totals...
-Generating docs for compound Catch::SectionInfo...
-Generating docs for compound Catch::SectionEndInfo...
-Generating docs for compound Catch::Timer...
-Generating docs for compound Catch::Section...
-Generating docs for compound Catch::BenchmarkLooper...
-Generating docs for compound Catch::IRegistryHub...
-Generating docs for compound Catch::IMutableRegistryHub...
-Generating docs for compound Catch::IExceptionTranslator...
-Generating docs for compound Catch::IExceptionTranslatorRegistry...
-Generating docs for compound Catch::ExceptionTranslatorRegistrar...
-Generating docs for compound Catch::StringMaker< Catch::Detail::Approx >...
-Generating docs for compound Catch::pluralise...
-Generating docs for compound Catch::MatchExpr...
-Generating docs for compound Catch::IGeneratorTracker...
-Generating docs for compound Catch::GeneratorException...
-Generating docs for compound Catch::IContext...
-Generating docs for compound Catch::IMutableContext...
-Generating docs for compound Catch::WarnAbout...
-Generating docs for compound Catch::ShowDurations...
-Generating docs for compound Catch::RunTests...
-Generating docs for compound Catch::UseColour...
-Generating docs for compound Catch::WaitForKeypress...
-Generating docs for compound Catch::IConfig...
-Generating docs for compound Catch::TestCaseInfo...
-Generating docs for compound Catch::TestCase...
-Generating docs for compound Catch::IRunner...
-Generating docs for compound Catch::Detail::IsStreamInsertable...
-Generating docs for compound Catch::Detail::Approx...
-Generating docs for compound Catch::Generators::GeneratorUntypedBase...
-Generating docs for compound Catch::Generators::IGenerator...
-Generating docs for compound Catch::Generators::SingleValueGenerator...
-Generating docs for compound Catch::Generators::FixedValuesGenerator...
-Generating docs for compound Catch::Generators::GeneratorWrapper...
-Generating docs for compound Catch::Generators::Generators...
-Generating docs for compound Catch::Generators::as...
-Generating docs for compound Catch::Generators::TakeGenerator...
-Generating docs for compound Catch::Generators::FilterGenerator...
-Generating docs for compound Catch::Generators::RepeatGenerator...
-Generating docs for compound Catch::Generators::MapGenerator...
-Generating docs for compound Catch::Generators::ChunkGenerator...
-Generating docs for compound Catch::Generators::RandomFloatingGenerator...
-Generating docs for compound Catch::Generators::RandomIntegerGenerator...
-Generating docs for compound Catch::Generators::RangeGenerator...
-Generating docs for compound Catch::Matchers::Floating::WithinAbsMatcher...
-Generating docs for compound Catch::Matchers::Floating::WithinUlpsMatcher...
-Generating docs for compound Catch::Matchers::Generic::PredicateMatcher...
-Generating docs for compound Catch::Matchers::Impl::MatchAllOf...
-Generating docs for compound Catch::Matchers::Impl::MatchAnyOf...
-Generating docs for compound Catch::Matchers::Impl::MatchNotOf...
-G/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2900: warning: Member MatcherUntypedBase(MatcherUntypedBase const &)=default (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2901: warning: Member operator=(MatcherUntypedBase const &)=delete (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2902: warning: Member toString() const  (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2906: warning: Member describe() const =0 (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2907: warning: Member m_cachedToString (variable) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2917: warning: Member match(ObjectT const &arg) const =0 (function) of class Catch::Matchers::Impl::MatcherMethod is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2927: warning: Member operator&&(MatcherBase const &other) const  (function) of class Catch::Matchers::Impl::MatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2928: warning: Member operator||(MatcherBase const &other) const  (function) of class Catch::Matchers::Impl::MatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2929: warning: Member operator!() const  (function) of class Catch::Matchers::Impl::MatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2900: warning: Member MatcherUntypedBase(MatcherUntypedBase const &)=default (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2901: warning: Member operator=(MatcherUntypedBase const &)=delete (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2902: warning: Member toString() const  (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2917: warning: Member match(Tconst &arg) const =0 (function) of class MatcherMethod< T > is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2906: warning: Member describe() const =0 (function) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:2907: warning: Member m_cachedToString (variable) of class Catch::Matchers::Impl::MatcherUntypedBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3138: warning: Member CasedString(std::string const &str, CaseSensitive::Choice caseSensitivity) (function) of class Catch::Matchers::StdString::CasedString is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3139: warning: Member adjustString(std::string const &str) const  (function) of class Catch::Matchers::StdString::CasedString is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3140: warning: Member caseSensitivitySuffix() const  (function) of class Catch::Matchers::StdString::CasedString is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3142: warning: Member m_caseSensitivity (variable) of class Catch::Matchers::StdString::CasedString is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3143: warning: Member m_str (variable) of class Catch::Matchers::StdString::CasedString is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3147: warning: Member StringMatcherBase(std::string const &operation, CasedString const &comparator) (function) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3148: warning: Member describe() const override (function) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3150: warning: Member m_comparator (variable) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3151: warning: Member m_operation (variable) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3155: warning: Member EqualsMatcher(CasedString const &comparator) (function) of class Catch::Matchers::StdString::EqualsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3156: warning: Member match(std::string const &source) const override (function) of class Catch::Matchers::StdString::EqualsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3147: warning: Member StringMatcherBase(std::string const &operation, CasedString const &comparator) (function) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3148: warning: Member describe() const override (function) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3150: warning: Member m_comparator (variable) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3151: warning: Member m_operation (variable) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3159: warning: Member ContainsMatcher(CasedString const &comparator) (function) of class Catch::Matchers::StdString::ContainsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3160: warning: Member match(std::string const &source) const override (function) of class Catch::Matchers::StdString::ContainsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3147: warning: Member StringMatcherBase(std::string const &operation, CasedString const &comparator) (function) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3148: warning: Member describe() const override (function) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3150: warning: Member m_comparator (variable) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3151: warning: Member m_operation (variable) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3163: warning: Member StartsWithMatcher(CasedString const &comparator) (function) of class Catch::Matchers::StdString::StartsWithMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3164: warning: Member match(std::string const &source) const override (function) of class Catch::Matchers::StdString::StartsWithMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3147: warning: Member StringMatcherBase(std::string const &operation, CasedString const &comparator) (function) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3148: warning: Member describe() const override (function) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3150: warning: Member m_comparator (variable) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3151: warning: Member m_operation (variable) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3167: warning: Member EndsWithMatcher(CasedString const &comparator) (function) of class Catch::Matchers::StdString::EndsWithMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3168: warning: Member match(std::string const &source) const override (function) of class Catch::Matchers::StdString::EndsWithMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3147: warning: Member StringMatcherBase(std::string const &operation, CasedString const &comparator) (function) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3148: warning: Member describe() const override (function) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3150: warning: Member m_comparator (variable) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3151: warning: Member m_operation (variable) of class Catch::Matchers::StdString::StringMatcherBase is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3172: warning: Member RegexMatcher(std::string regex, CaseSensitive::Choice caseSensitivity) (function) of class Catch::Matchers::StdString::RegexMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3173: warning: Member match(std::string const &matchee) const override (function) of class Catch::Matchers::StdString::RegexMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3174: warning: Member describe() const override (function) of class Catch::Matchers::StdString::RegexMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3229: warning: Member ContainsElementMatcher(T const &comparator) (function) of class Catch::Matchers::Vector::ContainsElementMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3231: warning: Member match(std::vector< T > const &v) const override (function) of class Catch::Matchers::Vector::ContainsElementMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3240: warning: Member describe() const override (function) of class Catch::Matchers::Vector::ContainsElementMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3244: warning: Member m_comparator (variable) of class Catch::Matchers::Vector::ContainsElementMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3250: warning: Member ContainsMatcher(std::vector< T > const &comparator) (function) of class Catch::Matchers::Vector::ContainsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3252: warning: Member match(std::vector< T > const &v) const override (function) of class Catch::Matchers::Vector::ContainsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3270: warning: Member describe() const override (function) of class Catch::Matchers::Vector::ContainsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3274: warning: Member m_comparator (variable) of class Catch::Matchers::Vector::ContainsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3280: warning: Member EqualsMatcher(std::vector< T > const &comparator) (function) of class Catch::Matchers::Vector::EqualsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3282: warning: Member match(std::vector< T > const &v) const override (function) of class Catch::Matchers::Vector::EqualsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3294: warning: Member describe() const override (function) of class Catch::Matchers::Vector::EqualsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3297: warning: Member m_comparator (variable) of class Catch::Matchers::Vector::EqualsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3302: warning: Member UnorderedEqualsMatcher(std::vector< T > const &target) (function) of class Catch::Matchers::Vector::UnorderedEqualsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3303: warning: Member match(std::vector< T > const &vec) const override (function) of class Catch::Matchers::Vector::UnorderedEqualsMatcher is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Automated_testing/catch.hpp:3333: warning: Member describe() const override (function) of class Catch::Matchers::Vector::UnorderedEqualsMatcher is not documented.
-enerating docs for compound Catch::Matchers::Impl::MatcherUntypedBase...
-Generating docs for compound Catch::Matchers::Impl::MatcherMethod...
-Generating docs for compound Catch::Matchers::Impl::MatcherBase...
-Generating docs for compound Catch::Matchers::StdString::CasedString...
-Generating docs for compound Catch::Matchers::StdString::StringMatcherBase...
-Generating docs for compound Catch::Matchers::StdString::EqualsMatcher...
-Generating docs for compound Catch::Matchers::StdString::ContainsMatcher...
-Generating docs for compound Catch::Matchers::StdString::StartsWithMatcher...
-Generating docs for compound Catch::Matchers::StdString::EndsWithMatcher...
-Generating docs for compound Catch::Matchers::StdString::RegexMatcher...
-Generating docs for compound Catch::Matchers::Vector::ContainsElementMatcher...
-Generating docs for compound Catch::Matchers::Vector::ContainsMatcher...
-Generating docs for compound Catch::Matchers::Vector::EqualsMatcher...
-Generating docs for compound Catch::Matchers::Vector::UnorderedEqualsMatcher...
 Generating docs for namespace Ui
 Generating graph info page...
 Generating directory documentation...
@@ -1833,5 +1061,5 @@ Generating file index...
 Generating file member index...
 Generating example index...
 finalizing index lists...
-lookup cache used 3612/65536 hits=30694 misses=3797
+lookup cache used 942/65536 hits=6090 misses=959
 finished...
