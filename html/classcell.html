@@ -102,16 +102,19 @@ Inheritance diagram for cell:</div>
 <area href="class_hexahedron.html" alt="Hexahedron" shape="rect" coords="91,168,172,192"/>
 <area href="class_hexahedron.html" alt="Hexahedron" shape="rect" coords="91,224,172,248"/>
 <area href="class_hexahedron.html" alt="Hexahedron" shape="rect" coords="91,280,172,304"/>
-<area href="class_pyramid.html" alt="Pyramid" shape="rect" coords="91,336,172,360"/>
+<area href="class_hexahedron.html" alt="Hexahedron" shape="rect" coords="91,336,172,360"/>
 <area href="class_pyramid.html" alt="Pyramid" shape="rect" coords="91,392,172,416"/>
 <area href="class_pyramid.html" alt="Pyramid" shape="rect" coords="91,448,172,472"/>
 <area href="class_pyramid.html" alt="Pyramid" shape="rect" coords="91,504,172,528"/>
 <area href="class_pyramid.html" alt="Pyramid" shape="rect" coords="91,560,172,584"/>
-<area href="class_tetrahedron.html" alt="Tetrahedron" shape="rect" coords="91,616,172,640"/>
-<area href="class_tetrahedron.html" alt="Tetrahedron" shape="rect" coords="91,672,172,696"/>
+<area href="class_pyramid.html" alt="Pyramid" shape="rect" coords="91,616,172,640"/>
+<area href="class_pyramid.html" alt="Pyramid" shape="rect" coords="91,672,172,696"/>
 <area href="class_tetrahedron.html" alt="Tetrahedron" shape="rect" coords="91,728,172,752"/>
 <area href="class_tetrahedron.html" alt="Tetrahedron" shape="rect" coords="91,784,172,808"/>
 <area href="class_tetrahedron.html" alt="Tetrahedron" shape="rect" coords="91,840,172,864"/>
+<area href="class_tetrahedron.html" alt="Tetrahedron" shape="rect" coords="91,896,172,920"/>
+<area href="class_tetrahedron.html" alt="Tetrahedron" shape="rect" coords="91,952,172,976"/>
+<area href="class_tetrahedron.html" alt="Tetrahedron" shape="rect" coords="91,1008,172,1032"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -147,6 +150,39 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setM</b> (<a class="e
 <tr class="memitem:aa355717ec737014dec7de5af090a581a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa355717ec737014dec7de5af090a581a"></a>
 std::vector&lt; <a class="el" href="class_vector.html">Vector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getV</b> ()</td></tr>
 <tr class="separator:aa355717ec737014dec7de5af090a581a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa9e05c3cd9320a263eaa6db024283b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acaa9e05c3cd9320a263eaa6db024283b"></a>
+<a class="el" href="class_material.html">Material</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getM</b> ()</td></tr>
+<tr class="separator:acaa9e05c3cd9320a263eaa6db024283b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb051a584a33eff784a979b3599e401e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb051a584a33eff784a979b3599e401e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCell</b> (int ID, int m, string type)</td></tr>
+<tr class="separator:adb051a584a33eff784a979b3599e401e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94e006ab6461aa0ed5bbed13afd97621"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a94e006ab6461aa0ed5bbed13afd97621"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setVertices</b> (int v)</td></tr>
+<tr class="separator:a94e006ab6461aa0ed5bbed13afd97621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a079f09697633c5412257f2cbd04e80c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a079f09697633c5412257f2cbd04e80c7"></a>
+vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getVertices</b> ()</td></tr>
+<tr class="separator:a079f09697633c5412257f2cbd04e80c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15b589b7b0399e026bac8226795d978e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15b589b7b0399e026bac8226795d978e"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>getType</b> ()</td></tr>
+<tr class="separator:a15b589b7b0399e026bac8226795d978e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a514b9243b18dda80cded62631335083a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a514b9243b18dda80cded62631335083a"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getCellID</b> ()</td></tr>
+<tr class="separator:a514b9243b18dda80cded62631335083a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a699f3adc34b6329ae95e80b02db9d229"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a699f3adc34b6329ae95e80b02db9d229"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getMaterialID</b> ()</td></tr>
+<tr class="separator:a699f3adc34b6329ae95e80b02db9d229"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4a484325ca18bd5bef2e143772df935"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4a484325ca18bd5bef2e143772df935"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getVerticesID</b> (int n)</td></tr>
+<tr class="separator:aa4a484325ca18bd5bef2e143772df935"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb2f8f8e708f3bbf5c515a8ed997f3d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aefb2f8f8e708f3bbf5c515a8ed997f3d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setV</b> (vector&lt; <a class="el" href="class_vector.html">Vector</a> &gt; &amp;CellVertices)</td></tr>
+<tr class="separator:aefb2f8f8e708f3bbf5c515a8ed997f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a611b0b0a168f2a191b2fdc4ae5b4b7fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a611b0b0a168f2a191b2fdc4ae5b4b7fe"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setM</b> (<a class="el" href="class_material.html">Material</a> &amp;CellMaterial)</td></tr>
+<tr class="separator:a611b0b0a168f2a191b2fdc4ae5b4b7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68a8084d90970abeafc4f1f259ff821a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68a8084d90970abeafc4f1f259ff821a"></a>
+std::vector&lt; <a class="el" href="class_vector.html">Vector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getV</b> ()</td></tr>
+<tr class="separator:a68a8084d90970abeafc4f1f259ff821a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaa9e05c3cd9320a263eaa6db024283b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acaa9e05c3cd9320a263eaa6db024283b"></a>
 <a class="el" href="class_material.html">Material</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getM</b> ()</td></tr>
 <tr class="separator:acaa9e05c3cd9320a263eaa6db024283b"><td class="memSeparator" colspan="2">&#160;</td></tr>
