@@ -645,16 +645,16 @@ Ge/home/travis/build/edwardpercy/ModelLoader/Include/Cell.h:28: warning: Member 
 /home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:128: warning: Member clipFilter (variable) of class MainWindow is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:129: warning: Member ClipFilters (variable) of class MainWindow is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:130: warning: Member ClipFactor (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:133: warning: Member Contours (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:134: warning: Member NumberofPieces (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:135: warning: Member ContourLength (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:136: warning: Member contourFilter (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:137: warning: Member planeContour (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:140: warning: Member light (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:143: warning: Member cubeSource (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:146: warning: Member Indicator (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:147: warning: Member Cell_Iterations (variable) of class MainWindow is not documented.
-/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:148: warning: Member Last_Colour (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:134: warning: Member Contours (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:135: warning: Member NumberofPieces (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:136: warning: Member ContourLength (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:137: warning: Member contourFilter (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:138: warning: Member planeContour (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:142: warning: Member light (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:145: warning: Member cubeSource (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:148: warning: Member Indicator (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:149: warning: Member Cell_Iterations (variable) of class MainWindow is not documented.
+/home/travis/build/edwardpercy/ModelLoader/Include/mainwindow.h:150: warning: Member Last_Colour (variable) of class MainWindow is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Material.h:26: warning: Member Material(int RCMat, int RCDen, string RCCol, string RCNam) (function) of class Material is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Material.h:36: warning: Member setMaterial(int RCMat, int RCDen, string RCCol, string RCNam) (function) of class Material is not documented.
 /home/travis/build/edwardpercy/ModelLoader/Include/Material.h:39: warning: Member getMatID() (function) of class Material is not documented.
