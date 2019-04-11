@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -63,6 +64,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -91,6 +93,50 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ae3b375de5f6df4faf74a95d64748e048"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model.html#ae3b375de5f6df4faf74a95d64748e048">Model</a> ()</td></tr>
+<tr class="separator:ae3b375de5f6df4faf74a95d64748e048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab9ca48a5d68fc6b5e8551f0bb871356"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aab9ca48a5d68fc6b5e8551f0bb871356"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveModel</b> (string FileName, string Hexstring)</td></tr>
+<tr class="separator:aab9ca48a5d68fc6b5e8551f0bb871356"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a4d779ece7f92c67c8339de0101b3f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a4d779ece7f92c67c8339de0101b3f1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadModel</b> (string FileName)</td></tr>
+<tr class="separator:a8a4d779ece7f92c67c8339de0101b3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a901e6ad8dc9cea818279d5f761a83508"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a901e6ad8dc9cea818279d5f761a83508"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCell</b> (string data)</td></tr>
+<tr class="separator:a901e6ad8dc9cea818279d5f761a83508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b5966b72476851ea2cea157c4f99c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af1b5966b72476851ea2cea157c4f99c9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetVertices</b> (string data)</td></tr>
+<tr class="separator:af1b5966b72476851ea2cea157c4f99c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a678dd4ca818fd183251ff26457c494"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a678dd4ca818fd183251ff26457c494"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMaterial</b> (string data)</td></tr>
+<tr class="separator:a6a678dd4ca818fd183251ff26457c494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c19b213f1a28e15686751e222bd324"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a65c19b213f1a28e15686751e222bd324"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetCellMaterial</b> (int ID, string Type)</td></tr>
+<tr class="separator:a65c19b213f1a28e15686751e222bd324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55ea9834fa581a540026db86ca9e104b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a55ea9834fa581a540026db86ca9e104b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetCell</b> (int ID, string Type)</td></tr>
+<tr class="separator:a55ea9834fa581a540026db86ca9e104b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dc4cde854b662acf931af0b2315e8a7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9dc4cde854b662acf931af0b2315e8a7"></a>
+vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetCellVertices</b> (int ID, string Type)</td></tr>
+<tr class="separator:a9dc4cde854b662acf931af0b2315e8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad19a0df34cef6db26a3ca53b136ecaf6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad19a0df34cef6db26a3ca53b136ecaf6"></a>
+vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetVertices</b> (int ID)</td></tr>
+<tr class="separator:ad19a0df34cef6db26a3ca53b136ecaf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c03611ba56c8a8f7de5ad361b855609"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c03611ba56c8a8f7de5ad361b855609"></a>
+vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetMaterialColour</b> (int ID)</td></tr>
+<tr class="separator:a0c03611ba56c8a8f7de5ad361b855609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82d498f13d22a0aaf246c8bcf4db527d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82d498f13d22a0aaf246c8bcf4db527d"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetCellVolume</b> (int ID)</td></tr>
+<tr class="separator:a82d498f13d22a0aaf246c8bcf4db527d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa78b2d41c261c58a346c4b098f7d5762"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa78b2d41c261c58a346c4b098f7d5762"></a>
+vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>FindCentre</b> (void)</td></tr>
+<tr class="separator:aa78b2d41c261c58a346c4b098f7d5762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6d62d38c1d51f43707a90293e407810"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6d62d38c1d51f43707a90293e407810"></a>
+vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>NumberCells</b> (void)</td></tr>
+<tr class="separator:aa6d62d38c1d51f43707a90293e407810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9595493bb0b8e504346d900af77ba745"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9595493bb0b8e504346d900af77ba745"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>NumberVertices</b> (void)</td></tr>
+<tr class="separator:a9595493bb0b8e504346d900af77ba745"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eaa9b29c77290d2673f662c1c97d832"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2eaa9b29c77290d2673f662c1c97d832"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Model</b> (string FileName)</td></tr>
 <tr class="separator:a2eaa9b29c77290d2673f662c1c97d832"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,12 +167,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>GetMaterial</b> (int 
 <tr class="memitem:a82d498f13d22a0aaf246c8bcf4db527d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82d498f13d22a0aaf246c8bcf4db527d"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>GetCellVolume</b> (int ID)</td></tr>
 <tr class="separator:a82d498f13d22a0aaf246c8bcf4db527d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa78b2d41c261c58a346c4b098f7d5762"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa78b2d41c261c58a346c4b098f7d5762"></a>
+<tr class="memitem:af490fb9c9e72483af11a32b5aa459ceb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af490fb9c9e72483af11a32b5aa459ceb"></a>
 vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>FindCentre</b> (void)</td></tr>
-<tr class="separator:aa78b2d41c261c58a346c4b098f7d5762"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6d62d38c1d51f43707a90293e407810"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6d62d38c1d51f43707a90293e407810"></a>
+<tr class="separator:af490fb9c9e72483af11a32b5aa459ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add91b5caab6d303b0580bfe668261986"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add91b5caab6d303b0580bfe668261986"></a>
 vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>NumberCells</b> (void)</td></tr>
-<tr class="separator:aa6d62d38c1d51f43707a90293e407810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:add91b5caab6d303b0580bfe668261986"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9595493bb0b8e504346d900af77ba745"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9595493bb0b8e504346d900af77ba745"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>NumberVertices</b> (void)</td></tr>
 <tr class="separator:a9595493bb0b8e504346d900af77ba745"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,9 +252,26 @@ vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Number
 int&#160;</td><td class="memItemRight" valign="bottom"><b>NumberVertices</b> (void)</td></tr>
 <tr class="separator:a9595493bb0b8e504346d900af77ba745"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ae3b375de5f6df4faf74a95d64748e048"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Model::Model </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Brief description Passes all of the model data to each of the respected classes </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/<a class="el" href="_centre_model-_volume_cell___test_2include_2_model_8h_source.html">Model.h</a></li>
-<li>/home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/src/Model.cpp</li>
+<li>/home/travis/build/edwardpercy/ModelLoader/include/<a class="el" href="model_8h_source.html">model.h</a></li>
+<li>/home/travis/build/edwardpercy/ModelLoader/src/<a class="el" href="model_8cpp.html">model.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

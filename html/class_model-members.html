@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -63,6 +64,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -91,41 +93,57 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>FindCentre</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>FindCentre</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>FindCentre</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>FindCentre</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetCell</b>(int ID, string Type) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>GetCell</b>(int ID, string Type) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetCell</b>(int ID, string Type) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>GetCell</b>(int ID, string Type) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetCellMaterial</b>(int ID, string Type) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>GetCellVertices</b>(int ID, string Type) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetCellVolume</b>(int ID) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>GetCellVolume</b>(int ID) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetMaterial</b>(int ID) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetCellVolume</b>(int ID) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>GetMaterial</b>(int ID) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetMaterial</b>(int ID) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>GetMaterial</b>(int ID) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetMaterialColour</b>(int ID) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>GetVertices</b>(int ID) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetVertices</b>(int ID) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>GetVertices</b>(int ID) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetVertices</b>(int ID) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>LoadModel</b>(string FileName) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>LoadModel</b>(string FileName) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>LoadModel</b>(string FileName) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>LoadModel</b>(string FileName) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>Model</b>(string FileName) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_model.html#ae3b375de5f6df4faf74a95d64748e048">Model</a>()</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Model</b>(string FileName) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>Model</b>(string FileName) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Model</b>(string FileName) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>NumberCells</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>NumberCells</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>NumberCells</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>NumberCells</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>NumberVertices</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>NumberVertices</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>NumberVertices</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>NumberVertices</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>SaveModel</b>(string FileName, string Hexstring) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SaveModel</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>SaveModel</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SaveModel</b>(void) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>SetCell</b>(string data) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SetCell</b>(string data) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>SetCell</b>(string data) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SetCell</b>(string data) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>SetMaterial</b>(string data) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SetMaterial</b>(string data) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>SetMaterial</b>(string data) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SetMaterial</b>(string data) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>SetVertices</b>(string data) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SetVertices</b>(string data) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>SetVertices</b>(string data) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SetVertices</b>(string data) (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>~Model</b>() (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>~Model</b>() (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>~Model</b>() (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>~Model</b>() (defined in <a class="el" href="class_model.html">Model</a>)</td><td class="entry"><a class="el" href="class_model.html">Model</a></td><td class="entry"></td></tr>
