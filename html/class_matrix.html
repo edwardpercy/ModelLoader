@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -70,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -92,6 +93,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a02e45e0d90486f6ceb32e31d73fcede3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a02e45e0d90486f6ceb32e31d73fcede3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Matrix</b> (float m11, float m12, float m13, float m21, float m22, float m23, float m31, float m32, float m33)</td></tr>
+<tr class="separator:a02e45e0d90486f6ceb32e31d73fcede3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9663505ec3d0cf92b7208865e4607e63"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9663505ec3d0cf92b7208865e4607e63"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMatrix</b> (float m11, float m12, float m13, float m21, float m22, float m23, float m31, float m32, float m33)</td></tr>
+<tr class="separator:a9663505ec3d0cf92b7208865e4607e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08bbd967e9cdfe1636971a2b1076b46f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a08bbd967e9cdfe1636971a2b1076b46f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>identity</b> (<a class="el" href="class_matrix.html">Matrix</a> m)</td></tr>
+<tr class="separator:a08bbd967e9cdfe1636971a2b1076b46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdffe292985906f0439bc2dc246473a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acdffe292985906f0439bc2dc246473a4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>displayMatrix</b> (int mat[N][N])</td></tr>
+<tr class="separator:acdffe292985906f0439bc2dc246473a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b73337ee59757a8b60471665a18c33b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b73337ee59757a8b60471665a18c33b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>rotateMatrix</b> (int mat[][N])</td></tr>
+<tr class="separator:a6b73337ee59757a8b60471665a18c33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd41aa3d4185259cba92e0205436345c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afd41aa3d4185259cba92e0205436345c"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>det</b> (float m)</td></tr>
+<tr class="separator:afd41aa3d4185259cba92e0205436345c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02e45e0d90486f6ceb32e31d73fcede3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a02e45e0d90486f6ceb32e31d73fcede3"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Matrix</b> (float m11, float m12, float m13, float m21, float m22, float m23, float m31, float m32, float m33)</td></tr>
 <tr class="separator:a02e45e0d90486f6ceb32e31d73fcede3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,8 +212,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>N</b></td></tr>
 <tr class="separator:a895dae038e8c77cc59f0665f78dcc50a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/<a class="el" href="_centre_model-_volume_cell___test_2include_2_matrix_8h_source.html">Matrix.h</a></li>
-<li>/home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/src/Matrix.cpp</li>
+<li>/home/travis/build/edwardpercy/ModelLoader/include/<a class="el" href="matrix_8h_source.html">matrix.h</a></li>
+<li>/home/travis/build/edwardpercy/ModelLoader/src/matrix.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

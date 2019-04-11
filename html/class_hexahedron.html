@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -70,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -98,11 +99,21 @@ Inheritance diagram for Hexahedron:</div>
 <area href="classcell.html" alt="cell" shape="rect" coords="91,0,172,24"/>
 <area href="classcell.html" alt="cell" shape="rect" coords="182,0,263,24"/>
 <area href="classcell.html" alt="cell" shape="rect" coords="273,0,354,24"/>
+<area href="classcell.html" alt="cell" shape="rect" coords="364,0,445,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a04a9dca349b96f2893d7e6d8d4376414"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a04a9dca349b96f2893d7e6d8d4376414"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>getvolume</b> ()</td></tr>
+<tr class="separator:a04a9dca349b96f2893d7e6d8d4376414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12d7f48d9eabd2534e7695bd3726616b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12d7f48d9eabd2534e7695bd3726616b"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>getWeight</b> ()</td></tr>
+<tr class="separator:a12d7f48d9eabd2534e7695bd3726616b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab95033af6bc12b9f662eef89c2f76e15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab95033af6bc12b9f662eef89c2f76e15"></a>
+<a class="el" href="class_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getCentre</b> ()</td></tr>
+<tr class="separator:ab95033af6bc12b9f662eef89c2f76e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04a9dca349b96f2893d7e6d8d4376414"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a04a9dca349b96f2893d7e6d8d4376414"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>getvolume</b> ()</td></tr>
 <tr class="separator:a04a9dca349b96f2893d7e6d8d4376414"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,6 +139,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setCell</b> (int ID, 
 <tr class="memitem:a94e006ab6461aa0ed5bbed13afd97621 inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a94e006ab6461aa0ed5bbed13afd97621"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setVertices</b> (int v)</td></tr>
 <tr class="separator:a94e006ab6461aa0ed5bbed13afd97621 inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6dd64c1ff9a47470414d280fd5aed4a inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6dd64c1ff9a47470414d280fd5aed4a"></a>
+vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getVertices</b> ()</td></tr>
+<tr class="separator:af6dd64c1ff9a47470414d280fd5aed4a inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15b589b7b0399e026bac8226795d978e inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15b589b7b0399e026bac8226795d978e"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>getType</b> ()</td></tr>
 <tr class="separator:a15b589b7b0399e026bac8226795d978e inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,9 +157,39 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>getVerticesID</b> (int
 <tr class="memitem:aefb2f8f8e708f3bbf5c515a8ed997f3d inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aefb2f8f8e708f3bbf5c515a8ed997f3d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setV</b> (vector&lt; <a class="el" href="class_vector.html">Vector</a> &gt; &amp;CellVertices)</td></tr>
 <tr class="separator:aefb2f8f8e708f3bbf5c515a8ed997f3d inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a611b0b0a168f2a191b2fdc4ae5b4b7fe inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a611b0b0a168f2a191b2fdc4ae5b4b7fe"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setM</b> (<a class="el" href="class_material.html">Material</a> &amp;CellMaterial)</td></tr>
+<tr class="separator:a611b0b0a168f2a191b2fdc4ae5b4b7fe inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa355717ec737014dec7de5af090a581a inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa355717ec737014dec7de5af090a581a"></a>
 std::vector&lt; <a class="el" href="class_vector.html">Vector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getV</b> ()</td></tr>
 <tr class="separator:aa355717ec737014dec7de5af090a581a inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa9e05c3cd9320a263eaa6db024283b inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acaa9e05c3cd9320a263eaa6db024283b"></a>
+<a class="el" href="class_material.html">Material</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getM</b> ()</td></tr>
+<tr class="separator:acaa9e05c3cd9320a263eaa6db024283b inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb051a584a33eff784a979b3599e401e inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb051a584a33eff784a979b3599e401e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCell</b> (int ID, int m, string type)</td></tr>
+<tr class="separator:adb051a584a33eff784a979b3599e401e inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94e006ab6461aa0ed5bbed13afd97621 inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a94e006ab6461aa0ed5bbed13afd97621"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setVertices</b> (int v)</td></tr>
+<tr class="separator:a94e006ab6461aa0ed5bbed13afd97621 inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15b589b7b0399e026bac8226795d978e inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15b589b7b0399e026bac8226795d978e"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>getType</b> ()</td></tr>
+<tr class="separator:a15b589b7b0399e026bac8226795d978e inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a514b9243b18dda80cded62631335083a inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a514b9243b18dda80cded62631335083a"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getCellID</b> ()</td></tr>
+<tr class="separator:a514b9243b18dda80cded62631335083a inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a699f3adc34b6329ae95e80b02db9d229 inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a699f3adc34b6329ae95e80b02db9d229"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getMaterialID</b> ()</td></tr>
+<tr class="separator:a699f3adc34b6329ae95e80b02db9d229 inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4a484325ca18bd5bef2e143772df935 inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4a484325ca18bd5bef2e143772df935"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getVerticesID</b> (int n)</td></tr>
+<tr class="separator:aa4a484325ca18bd5bef2e143772df935 inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb2f8f8e708f3bbf5c515a8ed997f3d inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aefb2f8f8e708f3bbf5c515a8ed997f3d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setV</b> (vector&lt; <a class="el" href="class_vector.html">Vector</a> &gt; &amp;CellVertices)</td></tr>
+<tr class="separator:aefb2f8f8e708f3bbf5c515a8ed997f3d inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68a8084d90970abeafc4f1f259ff821a inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68a8084d90970abeafc4f1f259ff821a"></a>
+std::vector&lt; <a class="el" href="class_vector.html">Vector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getV</b> ()</td></tr>
+<tr class="separator:a68a8084d90970abeafc4f1f259ff821a inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb051a584a33eff784a979b3599e401e inherit pub_methods_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb051a584a33eff784a979b3599e401e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setCell</b> (int ID, int m, string type)</td></tr>
 <tr class="separator:adb051a584a33eff784a979b3599e401e inherit pub_methods_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,10 +281,16 @@ vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>p</b><
 <tr class="memitem:a18515b3bc297d3cddaca6fb8cb979a51 inherit pro_attribs_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a18515b3bc297d3cddaca6fb8cb979a51"></a>
 vector&lt; <a class="el" href="class_vector.html">Vector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>v</b></td></tr>
 <tr class="separator:a18515b3bc297d3cddaca6fb8cb979a51 inherit pro_attribs_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d95998cc3d3e8b59165931dfa2344f5 inherit pro_attribs_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1d95998cc3d3e8b59165931dfa2344f5"></a>
+<a class="el" href="class_material.html">Material</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m</b></td></tr>
+<tr class="separator:a1d95998cc3d3e8b59165931dfa2344f5 inherit pro_attribs_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49584e785cc8485ba84cb5f6337f585b inherit pro_attribs_classcell"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49584e785cc8485ba84cb5f6337f585b"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>volume</b></td></tr>
+<tr class="separator:a49584e785cc8485ba84cb5f6337f585b inherit pro_attribs_classcell"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/<a class="el" href="_combined_01_class_01_tests_2_centre_model-_volume_cell___test_2include_2_hexahedron_8h_source.html">Hexahedron.h</a></li>
-<li>/home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/src/Hexahedron.cpp</li>
+<li>/home/travis/build/edwardpercy/ModelLoader/include/<a class="el" href="hexahedron_8h_source.html">hexahedron.h</a></li>
+<li>/home/travis/build/edwardpercy/ModelLoader/src/hexahedron.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
