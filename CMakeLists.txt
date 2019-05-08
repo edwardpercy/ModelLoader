@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 3.3 FATAL_ERROR)
+project( Model_Loader )
+include(CPack)
 
 foreach(p
     CMP0071 # 3.10: Let AUTOMOC and AUTOUIC process GENERATED files
@@ -8,10 +10,11 @@ foreach(p
   endif()
 endforeach()
 
-project( Model )
 
 
 set( CMAKE_INCLUDE_CURRENT_DIR ON )
+
+
 
 include_directories( include )
 
@@ -37,7 +40,7 @@ add_library( cell STATIC src/Cell.cpp )
 add_library( model STATIC src/Model.cpp )
 add_library( hexahedron STATIC src/Hexahedron.cpp )
 
-add_executable(Model_Test MACOSX_BUNDLE
+add_executable(Model_Loader MACOSX_BUNDLE
   include/main.h
   include/Cell.h
   include/Model.h
@@ -50,23 +53,14 @@ add_executable(Model_Test MACOSX_BUNDLE
   ${UI_Srcs}
 )
 
-# Create executable
-
-# 2 requirements
-
-# output exe name and Test file
-
-#add_executable( Test vectortest.cpp )
-#add_executable( Model_Test Main.cpp )
-
 
 
 # For link output and library
-target_link_libraries( Model_Test  Qt5::Widgets )
+target_link_libraries( Model_Loader  Qt5::Widgets )
 
 # Tell CMake that the executable depends on the VTK libraries
-target_link_libraries( Model_Test  ${VTK_LIBRARIES} )
-target_link_libraries( Model_Test
+target_link_libraries( Model_Loader  ${VTK_LIBRARIES} )
+target_link_libraries( Model_Loader
 								model
 								vector
 								material
@@ -74,4 +68,39 @@ target_link_libraries( Model_Test
 								hexahedron
 								)
 # Tell CMake that the executable depends on the Qt::Widget libraries.
+set(CMAKE_INSTALL_PREFIX ${CMAKE_BINARY_DIR})
+
+
+
+if(WIN32)
+    set(CPACK_GENERATOR "NSIS")
+else()
+    set(CPACK_GENERATOR "ZIP")
+endif()
+
+set(CMAKE_INSTALL_UCRT_LIBRARIES ON)
+
+set(CPACK_NSIS_CONTACT "Contact - Group 2 (Ed, Hana, P or Harry)")
+set(CPACK_NSIS_PACKAGE_NAME "Model_Loader")
+set(CPACK_NSIS_DISPLAY_NAME "Group 2 Model Loader 1.0")
+set (CPACK_NSIS_MODIFY_PATH "ON")
+
+set(CPACK_NSIS_EXTRA_INSTALL_COMMANDS "  CreateShortCut '$DESKTOP\\\\ModelLoader.lnk' '$INSTDIR\\\\bin\\\\Model_Loader.exe' ")
+set(CPACK_NSIS_CREATE_ICONS_EXTRA
+    "CreateShortCut '$SMPROGRAMS\\\\$STARTMENU_FOLDER\\\\ModelLoader.lnk' '$INSTDIR\\\\Model_Loader.exe' '-foo -bar'")
+install(TARGETS Model_Loader DESTINATION bin)
+
+set(CPACK_NSIS_EXTRA_INSTALL_COMMANDS "
+    CreateShortCut \\\"$DESKTOP\\\\${EWS_APP_NAME}.lnk\\\" \\\"$INSTDIR\\\\bin\\\\${EXE_TARGET_NAME}.exe\\\"
+")
+
+set(CPACK_NSIS_EXTRA_UNINSTALL_COMMANDS "
+    Delete \\\"$DESKTOP\\\\${EWS_APP_NAME}.lnk\\\"
+")
+
+install(DIRECTORY libs/ DESTINATION bin)
+install(DIRECTORY Resource/ DESTINATION Resources)
+install(DIRECTORY platforms/ DESTINATION bin/platforms)
+
+
 
