@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>My Project: /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/Cell.h Source File</title>
+<title>G2 Model Loader: /home/travis/build/edwardpercy/ModelLoader/Test_Programs/Combined Class Tests/CentreModel-VolumeCell_Test/include/Cell.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,8 +22,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">My Project
+   <div id="projectname">G2 Model Loader
    </div>
+   <div id="projectbrief">For this project we will be designing and creating software to view 3D CAD models and simulate. It will be created using the QT and VTK libraries and written using C++. The program will be available for both Windows and Mac OS</div>
   </td>
  </tr>
  </tbody>
@@ -70,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -89,17 +90,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">Cell.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<a href="_combined_01_class_01_tests_2_centre_model-_volume_cell___test_2include_2_cell_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;Vector.h&quot;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;Material.h&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_combined_01_class_01_tests_2_centre_model-_volume_cell___test_2include_2_vector_8h.html">Vector.h</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_combined_01_class_01_tests_2_centre_model-_volume_cell___test_2include_2_material_8h.html">Material.h</a>&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;Vector.h&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_combined_01_class_01_tests_2_centre_model-_volume_cell___test_2include_2_vector_8h.html">Vector.h</a>&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">using namespace </span>std;</div>
@@ -110,20 +111,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;      <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="class_pyramid.html">Pyramid</a>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;      <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="class_tetrahedron.html">Tetrahedron</a>;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;      <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="class_hexahedron.html">Hexahedron</a>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;      <span class="keywordtype">int</span> CellID, material;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;      <span class="keywordtype">string</span> type;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;      vector&lt;int&gt; p;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;      vector&lt;Vector&gt; v;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;      <span class="keywordtype">int</span> <a class="code" href="classcell.html#ac27e7fc79da16f12bfdeac9aa739bdf3">CellID</a>, <a class="code" href="classcell.html#a21d4c45caeadc31aef685e0f9cc9cbee">material</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;      <span class="keywordtype">string</span> <a class="code" href="classcell.html#ac26b443f11a669b7441cb4b5ed531fe9">type</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;      vector&lt;int&gt; <a class="code" href="classcell.html#a19856c0d18d85990e702893d897c699c">p</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;      vector&lt;Vector&gt; <a class="code" href="classcell.html#a18515b3bc297d3cddaca6fb8cb979a51">v</a>;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;     </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;      <span class="keywordtype">void</span> setCell(<span class="keywordtype">int</span> ID, <span class="keywordtype">int</span> m, <span class="keywordtype">string</span> type); <span class="comment">//store cellID, matID and cell type</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;      <span class="keywordtype">void</span> setVertices(<span class="keywordtype">int</span> v);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;      <span class="keywordtype">string</span> getType();</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;      <span class="keywordtype">int</span> getCellID();</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;      <span class="keywordtype">int</span> getMaterialID();</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;      <span class="keywordtype">int</span> getVerticesID(<span class="keywordtype">int</span> n);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      <span class="keywordtype">void</span> setV(vector&lt;Vector&gt;&amp; CellVertices);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      std::vector&lt;Vector&gt; getV();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;      <span class="keywordtype">void</span> <a class="code" href="classcell.html#adb051a584a33eff784a979b3599e401e">setCell</a>(<span class="keywordtype">int</span> ID, <span class="keywordtype">int</span> <a class="code" href="classcell.html#a1d95998cc3d3e8b59165931dfa2344f5">m</a>, <span class="keywordtype">string</span> <a class="code" href="classcell.html#ac26b443f11a669b7441cb4b5ed531fe9">type</a>); <span class="comment">//store cellID, matID and cell type</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;      <span class="keywordtype">void</span> <a class="code" href="classcell.html#a94e006ab6461aa0ed5bbed13afd97621">setVertices</a>(<span class="keywordtype">int</span> <a class="code" href="classcell.html#a18515b3bc297d3cddaca6fb8cb979a51">v</a>);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;      <span class="keywordtype">string</span> <a class="code" href="classcell.html#a15b589b7b0399e026bac8226795d978e">getType</a>();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;      <span class="keywordtype">int</span> <a class="code" href="classcell.html#a514b9243b18dda80cded62631335083a">getCellID</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;      <span class="keywordtype">int</span> <a class="code" href="classcell.html#a699f3adc34b6329ae95e80b02db9d229">getMaterialID</a>();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;      <span class="keywordtype">int</span> <a class="code" href="classcell.html#aa4a484325ca18bd5bef2e143772df935">getVerticesID</a>(<span class="keywordtype">int</span> n);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      <span class="keywordtype">void</span> <a class="code" href="classcell.html#aefb2f8f8e708f3bbf5c515a8ed997f3d">setV</a>(vector&lt;Vector&gt;&amp; CellVertices);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      std::vector&lt;Vector&gt; <a class="code" href="classcell.html#aa355717ec737014dec7de5af090a581a">getV</a>();</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      <span class="comment">//double getweight(double volume);</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;      <span class="comment">//virtual double getcentre();</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
@@ -163,10 +164,26 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">      //double getvolume();</span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">      //double getcentre();</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">}*/</span></div>
+<div class="ttc" id="classcell_html_a19856c0d18d85990e702893d897c699c"><div class="ttname"><a href="classcell.html#a19856c0d18d85990e702893d897c699c">cell::p</a></div><div class="ttdeci">vector&lt; int &gt; p</div><div class="ttdef"><b>Definition:</b> cell.h:23</div></div>
 <div class="ttc" id="class_hexahedron_html"><div class="ttname"><a href="class_hexahedron.html">Hexahedron</a></div><div class="ttdef"><b>Definition:</b> hexahedron.h:5</div></div>
+<div class="ttc" id="classcell_html_ac26b443f11a669b7441cb4b5ed531fe9"><div class="ttname"><a href="classcell.html#ac26b443f11a669b7441cb4b5ed531fe9">cell::type</a></div><div class="ttdeci">string type</div><div class="ttdef"><b>Definition:</b> cell.h:22</div></div>
 <div class="ttc" id="classcell_html"><div class="ttname"><a href="classcell.html">cell</a></div><div class="ttdef"><b>Definition:</b> cell.h:16</div></div>
+<div class="ttc" id="classcell_html_a18515b3bc297d3cddaca6fb8cb979a51"><div class="ttname"><a href="classcell.html#a18515b3bc297d3cddaca6fb8cb979a51">cell::v</a></div><div class="ttdeci">vector&lt; Vector &gt; v</div><div class="ttdef"><b>Definition:</b> cell.h:24</div></div>
+<div class="ttc" id="classcell_html_ac27e7fc79da16f12bfdeac9aa739bdf3"><div class="ttname"><a href="classcell.html#ac27e7fc79da16f12bfdeac9aa739bdf3">cell::CellID</a></div><div class="ttdeci">int CellID</div><div class="ttdef"><b>Definition:</b> cell.h:21</div></div>
+<div class="ttc" id="classcell_html_a21d4c45caeadc31aef685e0f9cc9cbee"><div class="ttname"><a href="classcell.html#a21d4c45caeadc31aef685e0f9cc9cbee">cell::material</a></div><div class="ttdeci">int material</div><div class="ttdef"><b>Definition:</b> cell.h:21</div></div>
+<div class="ttc" id="classcell_html_aa355717ec737014dec7de5af090a581a"><div class="ttname"><a href="classcell.html#aa355717ec737014dec7de5af090a581a">cell::getV</a></div><div class="ttdeci">std::vector&lt; Vector &gt; getV()</div><div class="ttdef"><b>Definition:</b> cell.cpp:66</div></div>
 <div class="ttc" id="class_tetrahedron_html"><div class="ttname"><a href="class_tetrahedron.html">Tetrahedron</a></div><div class="ttdef"><b>Definition:</b> tetrahedron.h:5</div></div>
+<div class="ttc" id="classcell_html_a699f3adc34b6329ae95e80b02db9d229"><div class="ttname"><a href="classcell.html#a699f3adc34b6329ae95e80b02db9d229">cell::getMaterialID</a></div><div class="ttdeci">int getMaterialID()</div><div class="ttdef"><b>Definition:</b> cell.cpp:39</div></div>
+<div class="ttc" id="classcell_html_a1d95998cc3d3e8b59165931dfa2344f5"><div class="ttname"><a href="classcell.html#a1d95998cc3d3e8b59165931dfa2344f5">cell::m</a></div><div class="ttdeci">Material m</div><div class="ttdef"><b>Definition:</b> cell.h:25</div></div>
+<div class="ttc" id="classcell_html_a514b9243b18dda80cded62631335083a"><div class="ttname"><a href="classcell.html#a514b9243b18dda80cded62631335083a">cell::getCellID</a></div><div class="ttdeci">int getCellID()</div><div class="ttdef"><b>Definition:</b> cell.cpp:35</div></div>
+<div class="ttc" id="classcell_html_aefb2f8f8e708f3bbf5c515a8ed997f3d"><div class="ttname"><a href="classcell.html#aefb2f8f8e708f3bbf5c515a8ed997f3d">cell::setV</a></div><div class="ttdeci">void setV(vector&lt; Vector &gt; &amp;CellVertices)</div><div class="ttdef"><b>Definition:</b> cell.cpp:51</div></div>
 <div class="ttc" id="class_pyramid_html"><div class="ttname"><a href="class_pyramid.html">Pyramid</a></div><div class="ttdef"><b>Definition:</b> pyramid.h:5</div></div>
+<div class="ttc" id="_combined_01_class_01_tests_2_centre_model-_volume_cell___test_2include_2_material_8h_html"><div class="ttname"><a href="_combined_01_class_01_tests_2_centre_model-_volume_cell___test_2include_2_material_8h.html">Material.h</a></div></div>
+<div class="ttc" id="classcell_html_aa4a484325ca18bd5bef2e143772df935"><div class="ttname"><a href="classcell.html#aa4a484325ca18bd5bef2e143772df935">cell::getVerticesID</a></div><div class="ttdeci">int getVerticesID(int n)</div><div class="ttdef"><b>Definition:</b> cell.cpp:43</div></div>
+<div class="ttc" id="classcell_html_adb051a584a33eff784a979b3599e401e"><div class="ttname"><a href="classcell.html#adb051a584a33eff784a979b3599e401e">cell::setCell</a></div><div class="ttdeci">void setCell(int ID, int m, string type)</div><div class="ttdef"><b>Definition:</b> cell.cpp:11</div></div>
+<div class="ttc" id="classcell_html_a94e006ab6461aa0ed5bbed13afd97621"><div class="ttname"><a href="classcell.html#a94e006ab6461aa0ed5bbed13afd97621">cell::setVertices</a></div><div class="ttdeci">void setVertices(int v)</div><div class="ttdef"><b>Definition:</b> cell.cpp:18</div></div>
+<div class="ttc" id="_combined_01_class_01_tests_2_centre_model-_volume_cell___test_2include_2_vector_8h_html"><div class="ttname"><a href="_combined_01_class_01_tests_2_centre_model-_volume_cell___test_2include_2_vector_8h.html">Vector.h</a></div></div>
+<div class="ttc" id="classcell_html_a15b589b7b0399e026bac8226795d978e"><div class="ttname"><a href="classcell.html#a15b589b7b0399e026bac8226795d978e">cell::getType</a></div><div class="ttdeci">string getType()</div><div class="ttdef"><b>Definition:</b> cell.cpp:31</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

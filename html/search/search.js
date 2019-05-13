@@ -7,12 +7,15 @@
 
 var indexSectionsWithContent =
 {
-  0: "cghmnprtuvï",
+  0: "acdfghijlmnoprstuvwxyz~ï",
   1: "chmptv",
   2: "u",
-  3: "chmptv",
-  4: "gm",
-  5: "nrtï"
+  3: "chmnprtv",
+  4: "acdfgilmnoprstvw~",
+  5: "acdfhijlmnoprstuvxyz",
+  6: "hpt",
+  7: "cn",
+  8: "nrtï"
 };
 
 var indexSectionNames =
@@ -22,7 +25,10 @@ var indexSectionNames =
   2: "namespaces",
   3: "files",
   4: "functions",
-  5: "pages"
+  5: "variables",
+  6: "related",
+  7: "defines",
+  8: "pages"
 };
 
 function convertToId(search)

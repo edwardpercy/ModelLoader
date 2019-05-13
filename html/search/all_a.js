@@ -1,4 +1,9 @@
 var searchData=
 [
-  ['﻿_2a_2ah62pep_20computing_20project_20_2d_20group_202_27s_20group_20repository_2a_2a',['﻿**H62PEP Computing Project - Group 2&apos;s group repository**',['../md__home_travis_build_edwardpercy__model_loader__r_e_a_d_m_e.html',1,'']]]
+  ['news',['NEWS',['../md__home_travis_build_edwardpercy__model_loader__n_e_w_s.html',1,'']]],
+  ['n',['N',['../class_matrix.html#a895dae038e8c77cc59f0665f78dcc50a',1,'Matrix::N()'],['../matrix_8h.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;matrix.h'],['../_centre_model-_volume_cell___test_2include_2_matrix_8h.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;Matrix.h'],['../_load_model___test_2include_2_matrix_8h.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;Matrix.h'],['../_save_model___test_2include_2_matrix_8h.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;Matrix.h'],['../matrixtest_8cpp.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;matrixtest.cpp']]],
+  ['news_2emd',['NEWS.md',['../_n_e_w_s_8md.html',1,'']]],
+  ['numbercells',['NumberCells',['../class_model.html#aa6d62d38c1d51f43707a90293e407810',1,'Model::NumberCells(void)'],['../class_model.html#add91b5caab6d303b0580bfe668261986',1,'Model::NumberCells(void)'],['../class_model.html#a70ac060019333bcf6d31a357023bf99e',1,'Model::NumberCells(void)'],['../class_model.html#add91b5caab6d303b0580bfe668261986',1,'Model::NumberCells(void)']]],
+  ['numbervertices',['NumberVertices',['../class_model.html#a9595493bb0b8e504346d900af77ba745',1,'Model::NumberVertices(void)'],['../class_model.html#a9595493bb0b8e504346d900af77ba745',1,'Model::NumberVertices(void)'],['../class_model.html#a9595493bb0b8e504346d900af77ba745',1,'Model::NumberVertices(void)'],['../class_model.html#a9595493bb0b8e504346d900af77ba745',1,'Model::NumberVertices(void)']]],
+  ['numcells',['NumCells',['../class_main_window.html#a4472ba51bafa0ad34fcff9e4aee89ddb',1,'MainWindow::NumCells()'],['../_centre_model-_volume_cell___test_2include_2_main_8h.html#af54fedc8d4010c4a97553eb6ee7a061e',1,'NumCells():&#160;Main.h'],['../_save_model___test_2include_2_main_8h.html#af54fedc8d4010c4a97553eb6ee7a061e',1,'NumCells():&#160;Main.h']]]
 ];

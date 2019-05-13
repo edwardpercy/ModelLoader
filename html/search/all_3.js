@@ -1,14 +1,5 @@
 var searchData=
 [
-  ['main',['main',['../main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main.cpp']]],
-  ['main_2ecpp',['main.cpp',['../main_8cpp.html',1,'']]],
-  ['mainwindow',['MainWindow',['../class_main_window.html',1,'MainWindow'],['../class_main_window.html#a8b244be8b7b7db1b08de2a2acb9409db',1,'MainWindow::MainWindow()']]],
-  ['mainwindow_2ecpp',['mainwindow.cpp',['../mainwindow_8cpp.html',1,'']]],
-  ['mainwindow_2eh',['mainwindow.h',['../mainwindow_8h.html',1,'']]],
-  ['material',['Material',['../class_material.html',1,'Material'],['../class_material.html#a137e987401b63eb7c6c27c3e38bc74b5',1,'Material::Material()']]],
-  ['material_2ecpp',['material.cpp',['../material_8cpp.html',1,'']]],
-  ['matrix',['Matrix',['../class_matrix.html',1,'']]],
-  ['matrix_2ecpp',['matrix.cpp',['../matrix_8cpp.html',1,'']]],
-  ['model',['Model',['../class_model.html',1,'Model'],['../class_model.html#ae3b375de5f6df4faf74a95d64748e048',1,'Model::Model()']]],
-  ['model_2ecpp',['model.cpp',['../model_8cpp.html',1,'']]]
+  ['filename',['FileName',['../_centre_model-_volume_cell___test_2include_2_main_8h.html#ac56689c3ac56ce5bcecabd9b090880f8',1,'FileName():&#160;Main.h'],['../_save_model___test_2include_2_main_8h.html#ac56689c3ac56ce5bcecabd9b090880f8',1,'FileName():&#160;Main.h']]],
+  ['findcentre',['FindCentre',['../class_model.html#aa78b2d41c261c58a346c4b098f7d5762',1,'Model::FindCentre(void)'],['../class_model.html#af490fb9c9e72483af11a32b5aa459ceb',1,'Model::FindCentre(void)'],['../class_model.html#a69224cf7c235cf2691a10b88cd7df439',1,'Model::FindCentre(void)'],['../class_model.html#af490fb9c9e72483af11a32b5aa459ceb',1,'Model::FindCentre(void)']]]
 ];

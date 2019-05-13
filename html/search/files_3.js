@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pyramid_2ecpp',['pyramid.cpp',['../pyramid_8cpp.html',1,'']]]
+  ['news_2emd',['NEWS.md',['../_n_e_w_s_8md.html',1,'']]]
 ];

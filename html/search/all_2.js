@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['hexahedron',['Hexahedron',['../class_hexahedron.html',1,'']]],
-  ['hexahedron_2ecpp',['hexahedron.cpp',['../hexahedron_8cpp.html',1,'']]]
+  ['density',['Density',['../class_material.html#a0934e2a6a2cb831d003b41fd1d373cf3',1,'Material']]],
+  ['det',['det',['../class_matrix.html#afd41aa3d4185259cba92e0205436345c',1,'Matrix::det(float m)'],['../class_matrix.html#afd41aa3d4185259cba92e0205436345c',1,'Matrix::det(float m)'],['../class_matrix.html#a3651da04591bb886a1600885e8c0b24b',1,'Matrix::det(Matrix m)'],['../class_matrix.html#afd41aa3d4185259cba92e0205436345c',1,'Matrix::det(float m)'],['../matrixtest_8cpp.html#abb54cf46c651d76a02a71d65034c1b09',1,'det():&#160;matrixtest.cpp']]],
+  ['displaymatrix',['displayMatrix',['../class_matrix.html#acdffe292985906f0439bc2dc246473a4',1,'Matrix::displayMatrix(int mat[N][N])'],['../class_matrix.html#acdffe292985906f0439bc2dc246473a4',1,'Matrix::displayMatrix(int mat[N][N])'],['../class_matrix.html#acdffe292985906f0439bc2dc246473a4',1,'Matrix::displayMatrix(int mat[N][N])'],['../class_matrix.html#acdffe292985906f0439bc2dc246473a4',1,'Matrix::displayMatrix(int mat[N][N])'],['../matrixtest_8cpp.html#adfbd36367faff2c43787eee796e0ed6a',1,'displayMatrix():&#160;matrixtest.cpp']]],
+  ['divide',['divide',['../class_vector.html#a3b74f4925b1c4012b7c04942aeafa39d',1,'Vector::divide(int n)'],['../class_vector.html#a3b74f4925b1c4012b7c04942aeafa39d',1,'Vector::divide(int n)'],['../class_vector.html#a3b74f4925b1c4012b7c04942aeafa39d',1,'Vector::divide(int n)'],['../class_vector.html#a4588a5bd29a1736f30ce7e060ce320b2',1,'Vector::divide(double n)']]]
 ];

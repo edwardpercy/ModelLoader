@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>My Project: /home/travis/build/edwardpercy/ModelLoader/include/tetrahedron.h Source File</title>
+<title>G2 Model Loader: /home/travis/build/edwardpercy/ModelLoader/include/tetrahedron.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,8 +22,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">My Project
+   <div id="projectname">G2 Model Loader
    </div>
+   <div id="projectbrief">For this project we will be designing and creating software to view 3D CAD models and simulate. It will be created using the QT and VTK libraries and written using C++. The program will be available for both Windows and Mac OS</div>
   </td>
  </tr>
  </tbody>
@@ -70,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -89,19 +90,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">tetrahedron.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<a href="tetrahedron_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;cell.h&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="cell_8h.html">cell.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
 <div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="class_tetrahedron.html">    5</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_tetrahedron.html">Tetrahedron</a> : <span class="keyword">public</span> <a class="code" href="classcell.html">cell</a> {</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_tetrahedron.html#a816d602f560c39b484fc3f6545ae1c92">getvolume</a>();</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">double</span> getWeight();</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="class_vector.html">Vector</a> getCentre();</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_tetrahedron.html#a167e60e85188e1582a9d7e52d71afbf6">getWeight</a>();</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="class_vector.html">Vector</a> <a class="code" href="class_tetrahedron.html#ac651b96d65145ec428b1352e67b66cc7">getCentre</a>();</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;};</div>
+<div class="ttc" id="class_tetrahedron_html_a167e60e85188e1582a9d7e52d71afbf6"><div class="ttname"><a href="class_tetrahedron.html#a167e60e85188e1582a9d7e52d71afbf6">Tetrahedron::getWeight</a></div><div class="ttdeci">double getWeight()</div><div class="ttdef"><b>Definition:</b> tetrahedron.cpp:22</div></div>
 <div class="ttc" id="classcell_html"><div class="ttname"><a href="classcell.html">cell</a></div><div class="ttdef"><b>Definition:</b> cell.h:16</div></div>
 <div class="ttc" id="class_tetrahedron_html_a816d602f560c39b484fc3f6545ae1c92"><div class="ttname"><a href="class_tetrahedron.html#a816d602f560c39b484fc3f6545ae1c92">Tetrahedron::getvolume</a></div><div class="ttdeci">double getvolume()</div><div class="ttdef"><b>Definition:</b> tetrahedron.cpp:11</div></div>
+<div class="ttc" id="cell_8h_html"><div class="ttname"><a href="cell_8h.html">cell.h</a></div></div>
 <div class="ttc" id="class_tetrahedron_html"><div class="ttname"><a href="class_tetrahedron.html">Tetrahedron</a></div><div class="ttdef"><b>Definition:</b> tetrahedron.h:5</div></div>
+<div class="ttc" id="class_tetrahedron_html_ac651b96d65145ec428b1352e67b66cc7"><div class="ttname"><a href="class_tetrahedron.html#ac651b96d65145ec428b1352e67b66cc7">Tetrahedron::getCentre</a></div><div class="ttdeci">Vector getCentre()</div><div class="ttdef"><b>Definition:</b> tetrahedron.cpp:31</div></div>
 <div class="ttc" id="class_vector_html"><div class="ttname"><a href="class_vector.html">Vector</a></div><div class="ttdef"><b>Definition:</b> vector.h:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
